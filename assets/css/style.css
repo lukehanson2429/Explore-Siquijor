@@ -29,17 +29,18 @@ padding: 0%;
 
 .home-text {
     font-family: "Neucha", sans-serif;
+    font-size: 14px;
     position: absolute;
     letter-spacing: 0.05em;
-    top: 150px;
-    color: #FFF;
+    top: 200px;
+    color: rgba(21, 209, 177, 1);
     z-index: 1000;
 }
 
 .home-col {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.75);
 
     border-top: solid;
     border-right: solid;
@@ -50,7 +51,19 @@ padding: 0%;
 
     border-width: 1px;
 
-    border-color: rgb(255, 255, 255);
+    border-color: rgba(21, 209, 177, 1);
+}
+
+.btn-custom {
+    background-color: rgba(21, 209, 177, 1);
+    border-color: rgba(255, 255, 255, 1);
+    border-width: 0.5px;
+}
+
+.btn-custom:hover {
+    background-color: rgba(255, 255, 255, 1);
+    border-color: rgba(21, 209, 177, 1);
+    border-width: 0.5px;
 }
 
 @media (min-width: 1050px) {
