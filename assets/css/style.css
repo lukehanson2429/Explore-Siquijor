@@ -22,3 +22,13 @@
     font-size: 18px;
     font-weight: bold;
 }
+
+#carouselMain {
+padding: 0%;
+}
+
+@media (min-width: 1050px) {
+    .carousel-item img {
+        width: 100%;
+    }
+}
