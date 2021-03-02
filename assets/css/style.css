@@ -27,6 +27,32 @@
 padding: 0%;
 }
 
+.home-text {
+    font-family: "Neucha", sans-serif;
+    position: absolute;
+    letter-spacing: 0.05em;
+    top: 150px;
+    color: #FFF;
+    z-index: 1000;
+}
+
+.home-col {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    border-top: solid;
+    border-right: solid;
+    border-bottom: solid;
+
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+    border-width: 1px;
+
+    border-color: rgb(255, 255, 255);
+}
+
 @media (min-width: 1050px) {
     .carousel-item img {
         width: 100%;
