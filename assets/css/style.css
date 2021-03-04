@@ -66,16 +66,13 @@ padding: 0%;
     border-width: 0.5px;
 }
 
-#map-bg {
+#map-section {
+    font-family: "Neucha", sans-serif;
     height: 90vh;
 
-    background-color: cadetblue;
+    background: url("../images/map-bg.jpg") no-repeat center center fixed;
     display: flex;
     justify-content: center;
-}
-
-.map-section {
-    padding-top: 20px;
 }
 
 #map {
@@ -83,6 +80,8 @@ padding: 0%;
     height: 500px;
     background-color: blue;
 }
+
+
 
 @media (min-width: 1050px) {
     .carousel-item img {
@@ -93,5 +92,10 @@ padding: 0%;
 @media (min-width: 464px) {
     .col-btn {
     padding: 20px;
+}
+}
+@media (max-width: 464px) {
+    .col-btn {
+    padding: 5px;
 }
 }
