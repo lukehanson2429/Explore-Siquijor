@@ -87,6 +87,37 @@ padding: 0%;
     background-color: blue;
 }
 
+.scroll-container {
+  height: 60vh;
+  overflow-y: scroll;
+}
+
+section {
+  height: 60vh;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkorchid;
+}
+
+section h2 {
+  opacity: 0;
+  transition: opacity 5000ms;
+}
+
+section.is-visible h2 {
+  opacity: 1;
+}
+
+section:nth-child(2n) {
+  background-color: turquoise;
+}
+
+section:nth-child(3n) {
+  background-color: tomato;
+}
+
 .footer {
     font-family: "Amatic SC", sans-serif;
     background-color:rgba(21, 209, 177, 1);
