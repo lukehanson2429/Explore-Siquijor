@@ -88,7 +88,12 @@ padding: 0%;
 }
 
 .footer {
+    font-family: "Amatic SC", sans-serif;
     background-color:rgba(21, 209, 177, 1);
+
+}
+.footer a {
+    font-size: 24px;
 }
 
 
