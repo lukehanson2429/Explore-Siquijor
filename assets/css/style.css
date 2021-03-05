@@ -87,6 +87,15 @@ padding: 0%;
     background-color: blue;
 }
 
+.main-content {
+    font-family: "Neucha", sans-serif;
+    letter-spacing: 0.05em;
+}
+
+.toppicks-col {
+ background-color: rgba(21, 209, 177, 1);
+}
+
 .scroll-container {
   height: 60vh;
   overflow-y: scroll;
