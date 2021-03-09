@@ -97,6 +97,8 @@ padding: 0%;
 .contact-section {
     font-family: "Neucha", sans-serif;
     letter-spacing: 0.05em;
+
+    color: antiquewhite;
     padding: 20px;
 }
 
@@ -133,6 +135,12 @@ section:nth-child(2n) {
 
 section:nth-child(3n) {
   background-color: tomato;
+}
+
+.form-bg {
+    background: url("../images/form-bg.jpg") no-repeat center center fixed;
+    display: flex;
+    justify-content: center;
 }
 
 .footer {
