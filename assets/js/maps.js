@@ -6,7 +6,17 @@ function initMap() {
     zoom: 11,
   });
 
-  addMarker({coords:{lat: 9.1999, lng: 123.5952}});
+// var Markers stored in Array
+var markers = [
+    {
+        coords:{lat: 9.1999, lng: 123.5952},
+    }
+];
+
+// for Loop through markers
+for(var i = 0;i < markers.length;i++){
+    addMarker(markers[i]);
+}
 
 // Add Marker Function
 function addMarker(props){
