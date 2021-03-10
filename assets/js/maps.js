@@ -19,5 +19,16 @@ function addMarker(props){
 if(props.iconImage){
     marker.setIcon(props.iconImage);
 }
+
+// Checking for content
+if(props.content){
+    var infoWindow = new google.maps.InfoWindow({
+        content: props.content
+    });
+
+    marker.addListener('click', function(){
+        infoWindow.open(map, marker);
+    });
+}
 }
 }
