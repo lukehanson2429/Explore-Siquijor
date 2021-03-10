@@ -6,13 +6,18 @@ function initMap() {
     zoom: 11,
   });
 
-  addMarker({lat: 9.1999, lng: 123.5952});
+  addMarker({coords:{lat: 9.1999, lng: 123.5952}});
 
 // Add Marker Function
-function addMarker(coords){
+function addMarker(props){
     var marker = new google.maps.Marker({
-        position:coords,
+        position:props.coords,
         map:map,
     });
+
+// if statement - check for icon
+if(props.iconImage){
+    marker.setIcon(props.iconImage);
+}
 }
 }
