@@ -7,8 +7,8 @@ function initMap() {
   });
 
 // for Loop through markers
-for(var i = 0;i < markers.length;i++){
-    addMarker(markers[i]);
+for(var i = 0;i < markersAttractions.length;i++){
+    addMarker(markersAttractions[i]);
 }
 
 // Add Marker Function
@@ -17,6 +17,13 @@ function addMarker(props){
         position:props.coords,
         map:map,
     });
+
+// Marker listener to adjust zoom on click
+  marker.addListener("click", () => {
+    map.setZoom(13);
+    map.setCenter(marker.getPosition());
+  });
+
 
 // if statement - check for icon
 if(props.iconImage){
@@ -37,7 +44,7 @@ if(props.content){
 }
 
 // var Attractions Markers stored in Array
-var markers = [
+var markersAttractions = [
     {   // Cambugahay Falls
         coords:{lat: 9.1400, lng: 123.6267},
         content:'<h3 class="main-content">Cambugahay Falls</h2><p class="main-content">3-tiered waterfall & a swimming hole with clear waters, reachable by a short hike with stairs.</p>',
