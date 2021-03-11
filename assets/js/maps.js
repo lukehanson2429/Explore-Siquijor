@@ -6,7 +6,37 @@ function initMap() {
     zoom: 11,
   });
 
-// var Markers stored in Array
+// for Loop through markers
+for(var i = 0;i < markers.length;i++){
+    addMarker(markers[i]);
+}
+
+// Add Marker Function
+function addMarker(props){
+    var marker = new google.maps.Marker({
+        position:props.coords,
+        map:map,
+    });
+
+// if statement - check for icon
+if(props.iconImage){
+    marker.setIcon(props.iconImage);
+}
+
+// Checking for content
+if(props.content){
+    var infoWindow = new google.maps.InfoWindow({
+        content: props.content
+    });
+
+    marker.addListener('click', function(){
+        infoWindow.open(map, marker);
+    });
+}
+}
+}
+
+// var Attractions Markers stored in Array
 var markers = [
     {   // Cambugahay Falls
         coords:{lat: 9.1400, lng: 123.6267},
@@ -37,37 +67,8 @@ var markers = [
         content:'<h3 class="main-content">Cantabon Cave</h2><p class="main-content">Big cave with stalactites, stalagmites & a pool of water, offering tours with helmets & flashlights.</p>'
     },
     {   // Tubod Beach Marine Sanctuary
-        coords:{lat: 9.185831, lng: 123.561178},
+        coords:{lat: 9.1416, lng: 123.5091},
         content:'<h3 class="main-content">Tubod Beach Marine Sanctuary</h2><p class="main-content">White-sand beach featuring aqua water, snorkeling & scuba diving rentals & a marine sanctuary.</p>'
     },
 ];
 
-// for Loop through markers
-for(var i = 0;i < markers.length;i++){
-    addMarker(markers[i]);
-}
-
-// Add Marker Function
-function addMarker(props){
-    var marker = new google.maps.Marker({
-        position:props.coords,
-        map:map,
-    });
-
-// if statement - check for icon
-if(props.iconImage){
-    marker.setIcon(props.iconImage);
-}
-
-// Checking for content
-if(props.content){
-    var infoWindow = new google.maps.InfoWindow({
-        content: props.content
-    });
-
-    marker.addListener('click', function(){
-        infoWindow.open(map, marker);
-    });
-}
-}
-}
