@@ -15,6 +15,10 @@ for (var i = 0; i < markersHostels.length; i++) {
     addMarker(markersHostels[i]);
   }
 
+for (var i = 0; i < markersEatDrink.length; i++) {
+    addMarker(markersEatDrink[i]);
+  }
+
 // Add Marker Function
 function addMarker(properties){
     var marker = new google.maps.Marker({
