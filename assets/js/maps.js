@@ -11,6 +11,10 @@ for(var i = 0;i < markersAttractions.length;i++){
     addMarker(markersAttractions[i]);
 }
 
+for (var i = 0; i < markersHostels.length; i++) {
+    addMarker(markersHostels[i]);
+  }
+
 // Add Marker Function
 function addMarker(properties){
     var marker = new google.maps.Marker({
