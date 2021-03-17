@@ -41,10 +41,10 @@ map.addListener("mouseout", () => {
       map.panTo({ lat: 9.1999, lng: 123.5952 });
     }, 3000);
   });
-  
+
 // Marker listener to adjust zoom on click
   marker.addListener("click", () => {
-    map.setZoom(13);
+    map.setZoom(15);
     map.setCenter(marker.getPosition());
   });
 
