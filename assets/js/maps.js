@@ -31,6 +31,16 @@ map.addListener("mouseout", () => {
       map.panTo({ lat: 9.1999, lng: 123.5952 });
     }, 500);
   });
+
+// Marker listener to adjust zoom and pan to centered latitutde on drag
+      map.addListener("drag", () => {
+    // 3 seconds after the center of the map has changed, pan back to the
+    // marker.
+    window.setTimeout(() => {
+      map.setZoom(11);
+      map.panTo({ lat: 9.1999, lng: 123.5952 });
+    }, 3000);
+  });
   
 // Marker listener to adjust zoom on click
   marker.addListener("click", () => {
