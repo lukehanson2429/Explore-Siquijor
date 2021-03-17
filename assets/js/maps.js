@@ -22,6 +22,16 @@ function addMarker(properties){
         map:map,
     });
 
+// Marker listener to adjust zoom and pan to centered latitutde on mouse
+map.addListener("mouseout", () => {
+    // 0.5 seconds after the center of the map has changed, pan back to the
+    // initial location.
+    window.setTimeout(() => {
+      map.setZoom(11);
+      map.panTo({ lat: 9.1999, lng: 123.5952 });
+    }, 500);
+  });
+  
 // Marker listener to adjust zoom on click
   marker.addListener("click", () => {
     map.setZoom(13);
