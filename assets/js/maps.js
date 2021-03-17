@@ -87,3 +87,30 @@ var markersAttractions = [
     },
 ];
 
+var markersHostels = [
+  {   // Cliff Garden Hostel, Content description - https://www.booking.com/hotel/ph/cliff-garden.en-gb.html
+    coords: { lat: 9.132135, lng: 123.528480 },
+    content: '<h3 class="main-content">Cliff Garden Hostel</h2><p class="main-content">Set in Siquijor, 1.4 miles from Salamangka Beach, Cliff Garden offers accommodation with a restaurant, free private parking, a garden and a terrace. All rooms are fitted with a patio with garden views and free WiFi.</p>'
+  },
+  {   // Tori's Backpacker Paradise, Content description - https://www.facebook.com/pg/torisbackpackersparadisesiquijor/about/?ref=page_internal
+    coords: { lat: 9.146809, lng: 123.505965 },
+    content: '<h3 class="main-content">Toris Backpacker Paradise</h2><p class="main-content">Situated along the shores of Tubod Beach, Toris Backpackers Paradise offers basic and comfy accommodation with free parking on site. It features lush tropical gardens, small beach and restobar with free WiFi access.</p>'
+  },
+  {   // Stella'z Guesthouse, Content description - https://www.booking.com/hotel/ph/stella-39-z-guesthouse.en-gb.html
+    coords: { lat: 9.150441, lng: 123.501123 },
+    content: '<h3 class="main-content">Stellaz Guesthouse</h2><p class="main-content">Located in Siquijor, Stellaz guesthouse offers accommodation with private balconies. Among the facilities at this property are a 24-hour front desk and a shared kitchen, along with free WiFi throughout the property. Free private parking is available and the guest house also provides bike hire for guests who want to explore the surrounding area.</p>'
+  },
+  {   // JJ's Backpackers Village, Content description - https://www.booking.com/hotel/ph/jjs-backpackers-village.en-gb.html
+    coords: { lat: 9.168225, lng: 123.481887 },
+    content: '<h3 class="main-content">JJs Backpackers Village</h2><p class="main-content">Located in Siquijor, 1.1 miles from Pontod Beach, JJS BACKPACKERS VILLAGE provides accommodation with a restaurant, free private parking, a bar and a shared lounge. The accommodation features a private beach area, as well as a garden and a terrace. The accommodation offers a 24-hour front desk, room service and currency exchange for guests.</p>'
+  },
+  {   // Love Shack Hostel, Content description - https://www.hostelworld.com/hosteldetails.php/Love-Shack-Hostel-Cafe/Siquijor-Island-near-Bohol/301353
+    coords: { lat: 9.176596, lng: 123.466639 },
+    content: '<h3 class="main-content">Love Shack Hostel</h2><p class="main-content">Love Shack Hostel is located in Paliton road., San Juan, Siquijor Island. 3 minute walk to the famous Paliton Marine Sanctuary with a a long stretch of white beach with amazing sunset. Considered as the best spot for relaxing after a long day of exploring the magical island of Siquijor. Shops, bars, restaurants, banks/ATM machines are within the area of San Juan.</p>'
+  },
+  {   // Lazy Lizard Hostel, Content description - https://www.booking.com/hotel/ph/lazy-lizard.en-gb.html
+    coords: { lat: 9.170282, lng: 123.485502 },
+    content: '<h3 class="main-content">Lazy Lizard Hostel</h2><p class="main-content">Located in Siquijor, 1.5 miles from Pontod Beach, Lazy Lizard Hostel provides accommodation with a bar, free private parking, a shared lounge and a garden. Guests can enjoy garden views.</p>'
+  },
+];
+
