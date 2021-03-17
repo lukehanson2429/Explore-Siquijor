@@ -12,9 +12,9 @@ for(var i = 0;i < markersAttractions.length;i++){
 }
 
 // Add Marker Function
-function addMarker(props){
+function addMarker(properties){
     var marker = new google.maps.Marker({
-        position:props.coords,
+        position:properties.coords,
         map:map,
     });
 
@@ -26,14 +26,14 @@ function addMarker(props){
 
 
 // if statement - check for icon
-if(props.iconImage){
-    marker.setIcon(props.iconImage);
+if(properties.iconImage){
+    marker.setIcon(properties.iconImage);
 }
 
 // Checking for content
-if(props.content){
+if(properties.content){
     var infoWindow = new google.maps.InfoWindow({
-        content: props.content
+        content: properties.content
     });
 
     marker.addListener('click', function(){
