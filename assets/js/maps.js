@@ -1,13 +1,13 @@
 let map;
 
+// init Map function only initiated dependant on button clicked and will display correct markers dependant on array variable
 function initMap(category) {
   map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 9.1999, lng: 123.5952 },
     zoom: 11,
   });
 
-// for Loop through markers
-
+// for Loop through markers dependant on category
 for(var i = 0;i < category.length;i++){
     addMarker(category[i]);
 }
@@ -28,16 +28,6 @@ map.addListener("mouseout", () => {
       map.setZoom(11);
       map.panTo({ lat: 9.1999, lng: 123.5952 });
     }, 500);
-  });
-
-// Marker listener to adjust zoom and pan to centered latitutde on drag
-      map.addListener("drag", () => {
-    // 3 seconds after the center of the map has changed, pan back to the
-    // marker.
-    window.setTimeout(() => {
-      map.setZoom(11);
-      map.panTo({ lat: 9.1999, lng: 123.5952 });
-    }, 3000);
   });
 
 // Marker listener to adjust zoom on click
