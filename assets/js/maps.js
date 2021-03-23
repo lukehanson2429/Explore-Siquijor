@@ -3,7 +3,7 @@ let map;
 // init Map function only initiated dependant on button clicked and will display correct markers dependant on array variable
 function initMap(category) {
   map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 9.1999, lng: 123.5952 },
+    center: { lat: 9.186013, lng: 123.580776 },
     zoom: 11,
   });
 
@@ -26,7 +26,7 @@ map.addListener("mouseout", () => {
     // initial location.
     window.setTimeout(() => {
       map.setZoom(11);
-      map.panTo({ lat: 9.1999, lng: 123.5952 });
+      map.panTo({ lat: 9.186013, lng: 123.580776 });
     }, 500);
   });
 
