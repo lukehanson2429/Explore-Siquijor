@@ -101,6 +101,13 @@ padding: 0%;
     padding: 20px;
 }
 
+.eatdrink-content {
+    background-color: rgba(240, 117, 24, 1);
+    font-family: "Neucha", sans-serif;
+    letter-spacing: 0.05em;
+    padding: 20px;
+}
+
 .contact-section {
     font-family: "Neucha", sans-serif;
     letter-spacing: 0.05em;

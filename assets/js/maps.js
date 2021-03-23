@@ -135,37 +135,37 @@ var hostels = [
 var eatDrink = [
   {   // Jungle of Peace Bar & BBQ
     coords: { lat: 9.134458, lng: 123.532479 },
-    content: '<h3 class="main-content">Jungle of Peace Bar & BBQ</h3><p class="main-content">With some of the best views on the island this is the perfect place to unwind and watch the sunset with a nice cold beer/cocktail.</p>',
+    content: '<h3 class="eatdrink-content">Jungle of Peace Bar & BBQ</h3><p class="eatdrink-content">With some of the best views on the island this is the perfect place to unwind and watch the sunset with a nice cold beer/cocktail.</p>',
     iconImage: "https://drive.google.com/uc?id=1w6THhD0zdF6MVohbXnpbhGmxLkNyxHVd"
   },
   {   // Baha Bar content description  - http://baha-bar.com/
     coords: { lat: 9.151960, lng: 123.499472 },
-    content: '<h3 class="main-content">Baha Bar</h3><p class="main-content">Baha Bar has a loungey informal laid-back atmosphere that welcomes overseas visitors and locals alike. It prides itself on having an extensive tapas style menu that permits you to experience the best flavours of the Philippines and a cocktail drinks menu unrivalled on Siquijor if not the Visayas.</p>',
+    content: '<h3 class="eatdrink-content">Baha Bar</h3><p class="eatdrink-content">Baha Bar has a loungey informal laid-back atmosphere that welcomes overseas visitors and locals alike. It prides itself on having an extensive tapas style menu that permits you to experience the best flavours of the Philippines and a cocktail drinks menu unrivalled on Siquijor if not the Visayas.</p>',
     iconImage: "https://drive.google.com/uc?id=1w6THhD0zdF6MVohbXnpbhGmxLkNyxHVd"
   },
     {   // Luca Loko Restaurant 
     coords: { lat: 9.154195, lng: 123.497322 },
-    content: '<h3 class="main-content">Luca Loko Restaurant</h3><p class="main-content">A small and very welcome restaurant that faces the ocean , conviently along the road,with mixed international cuisine, and a lot of healthy food for vegetarians and vegans.</p>',
+    content: '<h3 class="eatdrink-content">Luca Loko Restaurant</h3><p class="eatdrink-content">A small and very welcome restaurant that faces the ocean , conviently along the road,with mixed international cuisine, and a lot of healthy food for vegetarians and vegans.</p>',
     iconImage: "https://drive.google.com/uc?id=1ZcGRu7i1Pcddjl4LHdItMm0JaBapAcEN"
   },
       {   // Island Casitas Siquijor
     coords: { lat: 9.160996, lng: 123.489620 },
-    content: '<h3 class="main-content">Island Casitas Siquijor</h3><p class="main-content">Bar with laid back vibe right on the beach with cozy chairs and hammocks. Perfect place to watch the sunset. Also have extensive food menu.</p>',
+    content: '<h3 class="eatdrink-content">Island Casitas Siquijor</h3><p class="eatdrink-content">Bar with laid back vibe right on the beach with cozy chairs and hammocks. Perfect place to watch the sunset. Also have extensive food menu.</p>',
     iconImage: "https://drive.google.com/uc?id=1w6THhD0zdF6MVohbXnpbhGmxLkNyxHVd"
   },
         {   // Aloha's Grill & Resto Bar
     coords: { lat: 9.164375, lng: 123.486283 },
-    content: '<h3 class="main-content">Alohas Grill & Resto Bar</h3><p class="main-content">Unpretentious BBQ place that serves you freshly cooked meat and sea food with your own choice of sides.</p>',
+    content: '<h3 class="eatdrink-content">Alohas Grill & Resto Bar</h3><p class="eatdrink-content">Unpretentious BBQ place that serves you freshly cooked meat and sea food with your own choice of sides.</p>',
     iconImage: "https://drive.google.com/uc?id=1ZcGRu7i1Pcddjl4LHdItMm0JaBapAcEN"
   },
           {   // Roch Cuisine
     coords: { lat: 9.165614, lng: 123.484945 },
-    content: '<h3 class="main-content">Roch Cuisine</h3><p class="main-content">Pop up restaurant in perfect sunset location. Try the special Mango Cake for dessert!</p>',
+    content: '<h3 class="eatdrink-content">Roch Cuisine</h3><p class="eatdrink-content">Pop up restaurant in perfect sunset location. Try the special Mango Cake for dessert!</p>',
     iconImage: "https://drive.google.com/uc?id=1ZcGRu7i1Pcddjl4LHdItMm0JaBapAcEN"
   },
             {   // Monkey Business
     coords: { lat: 9.172996, lng: 123.476098 },
-    content: '<h3 class="main-content">Monkey Business</h3><p class="main-content">Western & Filipino cuisine with live music every saturday. Special discount on burgers every saturday too!</p>',
+    content: '<h3 class="eatdrink-content">Monkey Business</h3><p class="eatdrink-content">Western & Filipino cuisine with live music every saturday. Special discount on burgers every saturday too!</p>',
     iconImage: "https://drive.google.com/uc?id=1ZcGRu7i1Pcddjl4LHdItMm0JaBapAcEN"
   },
   ];
