@@ -59,42 +59,42 @@ if(properties.content){
 var attractions = [
   {   // Cambugahay Falls
     coords: { lat: 9.1400, lng: 123.6267 },
-    content: '<h3 class="main-content">Cambugahay Falls</h3><p class="main-content">3-tiered waterfall & a swimming hole with clear waters, reachable by a short hike with stairs.</p>',
+    content: '<h3 class="attr-content">Cambugahay Falls</h3><p class="attr-content">3-tiered waterfall & a swimming hole with clear waters, reachable by a short hike with stairs.</p>',
     iconImage: "https://drive.google.com/uc?id=13g8V-6J-tfzg5ZFNNJudd1yDGUuQUVlD"
   },
   {   // Salagdoong Beach
     coords: { lat: 9.2125, lng: 123.6811 },
-    content: '<h3 class="main-content">Salagdoong Beach</h3><p class="main-content">Tropical stretch of sand featuring a diving platform & water slide, plus a casual restaurant. </p>',
+    content: '<h3 class="attr-content">Salagdoong Beach</h3><p class="attr-content">Tropical stretch of sand featuring a diving platform & water slide, plus a casual restaurant. </p>',
     iconImage: "https://drive.google.com/uc?id=13g8V-6J-tfzg5ZFNNJudd1yDGUuQUVlD"
   },
   {   // Old Enchanted Balete Tree
     coords: { lat: 9.120970, lng: 123.575373 },
-    content: '<h3 class="main-content">Old Enchanted Balete Tree</h3><p class="main-content">Grand 400-year-old tree with a spring at its base where visitors have their feet nibbled on by fish. </p>',
+    content: '<h3 class="attr-content">Old Enchanted Balete Tree</h3><p class="attr-content">Grand 400-year-old tree with a spring at its base where visitors have their feet nibbled on by fish. </p>',
     iconImage: "https://drive.google.com/uc?id=13g8V-6J-tfzg5ZFNNJudd1yDGUuQUVlD"
   },
   {   // Sambulawan Underground River
     coords: { lat: 9.141527, lng: 123.636714 },
-    content: '<h3 class="main-content">Sambulawan Underground River</h3><p class="main-content">The underground river system goes on for more than 1km through spectacular underground rock formations that will leave you breathless. It is believed that the river provides the headwaters of Cambugahay Falls, which is less than one kilometre away.</p>',
+    content: '<h3 class="attr-content">Sambulawan Underground River</h3><p class="attr-content">The underground river system goes on for more than 1km through spectacular underground rock formations that will leave you breathless. It is believed that the river provides the headwaters of Cambugahay Falls, which is less than one kilometre away.</p>',
     iconImage: "https://drive.google.com/uc?id=13g8V-6J-tfzg5ZFNNJudd1yDGUuQUVlD"
   },
   {   // Lagaan Falls
     coords: { lat: 9.1345, lng: 123.6136 },
-    content: '<h3 class="main-content">Lagaan Falls</h3><p class="main-content">While not as large as Cambugahay Falls this smaller waterfall is less touristy and provides swimming holes, rope swings, rock jumps, and small caves.</p>',
+    content: '<h3 class="attr-content">Lagaan Falls</h3><p class="attr-content">While not as large as Cambugahay Falls this smaller waterfall is less touristy and provides swimming holes, rope swings, rock jumps, and small caves.</p>',
     iconImage: "https://drive.google.com/uc?id=13g8V-6J-tfzg5ZFNNJudd1yDGUuQUVlD"
   },
   {   // Lugnason Falls
     coords: { lat: 9.1485, lng: 123.5338 },
-    content: '<h3 class="main-content">Lugnason Falls</h3><p class="main-content">Landscaped recreation area around an island waterfall, with spots for jumping into a natural pool.</p>',
+    content: '<h3 class="attr-content">Lugnason Falls</h3><p class="attr-content">Landscaped recreation area around an island waterfall, with spots for jumping into a natural pool.</p>',
     iconImage: "https://drive.google.com/uc?id=13g8V-6J-tfzg5ZFNNJudd1yDGUuQUVlD"
   },
   {   // Cantabon Cave
     coords: { lat: 9.185831, lng: 123.561178 },
-    content: '<h3 class="main-content">Cantabon Cave</h3><p class="main-content">Big cave with stalactites, stalagmites & a pool of water, offering tours with helmets & flashlights.</p>',
+    content: '<h3 class="attr-content">Cantabon Cave</h3><p class="attr-content">Big cave with stalactites, stalagmites & a pool of water, offering tours with helmets & flashlights.</p>',
     iconImage: "https://drive.google.com/uc?id=13g8V-6J-tfzg5ZFNNJudd1yDGUuQUVlD"
   },
   {   // Tubod Beach Marine Sanctuary
     coords: { lat: 9.1416, lng: 123.5091 },
-    content: '<h3 class="main-content">Tubod Beach Marine Sanctuary</h3><p class="main-content">White-sand beach featuring aqua water, snorkeling & scuba diving rentals & a marine sanctuary.</p>',
+    content: '<h3 class="attr-content">Tubod Beach Marine Sanctuary</h3><p class="attr-content">White-sand beach featuring aqua water, snorkeling & scuba diving rentals & a marine sanctuary.</p>',
     iconImage: "https://drive.google.com/uc?id=13g8V-6J-tfzg5ZFNNJudd1yDGUuQUVlD"
   },
 ];
