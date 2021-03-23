@@ -1,23 +1,16 @@
 let map;
 
-function initMap() {
+function initMap(category) {
   map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 9.1999, lng: 123.5952 },
     zoom: 11,
   });
 
 // for Loop through markers
-for(var i = 0;i < markersAttractions.length;i++){
-    addMarker(markersAttractions[i]);
+
+for(var i = 0;i < category.length;i++){
+    addMarker(category[i]);
 }
-
-for (var i = 0; i < markersHostels.length; i++) {
-    addMarker(markersHostels[i]);
-  }
-
-for (var i = 0; i < markersEatDrink.length; i++) {
-    addMarker(markersEatDrink[i]);
-  }
 
 // Add Marker Function
 function addMarker(properties){
@@ -25,6 +18,7 @@ function addMarker(properties){
         position:properties.coords,
         map:map,
     });
+
 
 // Marker listener to adjust zoom and pan to centered latitutde on mouse
 map.addListener("mouseout", () => {
@@ -72,7 +66,7 @@ if(properties.content){
 }
 
 // var Attractions Markers stored in Array
-var markersAttractions = [
+var attractions = [
   {   // Cambugahay Falls
     coords: { lat: 9.1400, lng: 123.6267 },
     content: '<h3 class="main-content">Cambugahay Falls</h3><p class="main-content">3-tiered waterfall & a swimming hole with clear waters, reachable by a short hike with stairs.</p>',
@@ -115,7 +109,7 @@ var markersAttractions = [
   },
 ];
 
-var markersHostels = [
+var hostels = [
   {   // Cliff Garden Hostel, Content description - https://www.booking.com/hotel/ph/cliff-garden.en-gb.html
     coords: { lat: 9.132135, lng: 123.528480 },
     content: '<h3 class="main-content">Cliff Garden Hostel</h3><p class="main-content">Set in Siquijor, 1.4 miles from Salamangka Beach, Cliff Garden offers accommodation with a restaurant, free private parking, a garden and a terrace. All rooms are fitted with a patio with garden views and free WiFi.</p>',
@@ -148,7 +142,7 @@ var markersHostels = [
   },
 ];
 
-var markersEatDrink = [
+var eatDrink = [
   {   // Jungle of Peace Bar & BBQ
     coords: { lat: 9.134458, lng: 123.532479 },
     content: '<h3 class="main-content">Jungle of Peace Bar & BBQ</h3><p class="main-content">With some of the best views on the island this is the perfect place to unwind and watch the sunset with a nice cold beer/cocktail.</p>',
