@@ -159,8 +159,10 @@ padding: 0%;
 section {
   height: 60vh;
   padding: 1rem;
-  display: flex;
   background-color: rgba(240, 117, 24, 1);
+  border: solid;
+  border-width: 0.5px;
+  border-color: white;
 }
 
 section:nth-child(2n) {
