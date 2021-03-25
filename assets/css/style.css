@@ -162,6 +162,17 @@ padding: 0%;
   overflow-y: scroll;
 }
 
+#top-bg-hos {
+
+    background: url("../images/cliffgarden.jpeg") no-repeat;
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+object-position: bottom;
+}
+
 section {
   height: 60vh;
   padding: 1rem;
