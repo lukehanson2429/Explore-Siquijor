@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Neucha&display=swap');
 
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
 .navbar{
       position:absolute;
       width:100%;
