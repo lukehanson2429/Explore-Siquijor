@@ -160,26 +160,15 @@ section {
   height: 60vh;
   padding: 1rem;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: darkorchid;
-}
-
-section h2 {
-  opacity: 0;
-  transition: opacity 5000ms;
-}
-
-section.is-visible h2 {
-  opacity: 1;
+  background-color: rgba(240, 117, 24, 1);
 }
 
 section:nth-child(2n) {
-  background-color: turquoise;
+  background-color: rgba(171, 72, 196, 1);
 }
 
 section:nth-child(3n) {
-  background-color: tomato;
+  background-color: rgba(21, 209, 177, 1);
 }
 
 .form-bg {
