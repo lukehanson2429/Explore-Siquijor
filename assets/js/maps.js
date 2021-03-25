@@ -170,3 +170,27 @@ var eatDrink = [
   },
   ];
 
+  var cliffgarden = [
+  {   // Cliff Garden Hostel, Content description - https://www.booking.com/hotel/ph/cliff-garden.en-gb.html
+    coords: { lat: 9.132135, lng: 123.528480 },
+    content: '<h3 class="main-content">Cliff Garden Hostel</h3><p class="main-content">Set in Siquijor, 1.4 miles from Salamangka Beach, Cliff Garden offers accommodation with a restaurant, free private parking, a garden and a terrace. All rooms are fitted with a patio with garden views and free WiFi.</p>',
+    iconImage: "https://drive.google.com/uc?id=1dy5KhZty_V0FCE_-J6yWuQwO7Xn6f3fi"
+  },
+];
+
+  var cbfalls = [
+  {   // Cambugahay Falls
+    coords: { lat: 9.1400, lng: 123.6267 },
+    content: '<h3 class="attr-content">Cambugahay Falls</h3><p class="attr-content">3-tiered waterfall & a swimming hole with clear waters, reachable by a short hike with stairs.</p>',
+    iconImage: "https://drive.google.com/uc?id=13g8V-6J-tfzg5ZFNNJudd1yDGUuQUVlD"
+  },
+];
+
+  var aloha = [
+        {   // Aloha's Grill & Resto Bar
+    coords: { lat: 9.164375, lng: 123.486283 },
+    content: '<h3 class="eatdrink-content">Alohas Grill & Resto Bar</h3><p class="eatdrink-content">Unpretentious BBQ place that serves you freshly cooked meat and sea food with your own choice of sides.</p>',
+    iconImage: "https://drive.google.com/uc?id=1ZcGRu7i1Pcddjl4LHdItMm0JaBapAcEN"
+  },
+];
+
