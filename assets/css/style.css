@@ -173,6 +173,13 @@ background-size: cover;
 object-position: bottom;
 }
 
+.button-position {
+
+display: flex;
+justify-content: center;
+
+}
+
 section {
   height: 60vh;
   padding: 1rem;
