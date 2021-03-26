@@ -239,3 +239,11 @@ section:nth-child(3n) {
     padding: 5px;
 }
 }
+
+@media (max-width: 767px) {
+.padding-tp {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 30px;
+}
+}
