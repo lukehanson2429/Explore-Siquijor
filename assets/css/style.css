@@ -39,7 +39,7 @@ padding: 0%;
     position: absolute;
     letter-spacing: 0.05em;
     top: 200px;
-    color: rgba(21, 209, 177, 1);
+    color: white;
     z-index: 1000;
 }
 
@@ -57,7 +57,7 @@ padding: 0%;
 
     border-width: 1px;
 
-    border-color: rgba(21, 209, 177, 1);
+    border-color: white;
 }
 
 .btn-custom-ed {
@@ -158,7 +158,7 @@ padding: 0%;
 }
 
 .scroll-container {
-  height: 60vh;
+  height: 70vh;
   overflow-y: scroll;
 }
 
@@ -170,7 +170,16 @@ padding: 0%;
 -o-background-size: cover;
 background-size: cover;
 
-object-position: bottom;
+}
+
+#top-bg-attr {
+
+    background: url("../images/waterfall.jpeg") no-repeat;
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
 }
 
 .button-position {
@@ -181,7 +190,7 @@ justify-content: center;
 }
 
 section {
-  height: 60vh;
+  height: 70vh;
   padding: 1rem;
   background-color: rgba(240, 117, 24, 1);
   border: solid;
