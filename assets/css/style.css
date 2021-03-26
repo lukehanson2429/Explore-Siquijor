@@ -160,6 +160,10 @@ padding: 0%;
 .scroll-container {
   height: 70vh;
   overflow-y: scroll;
+
+  border-color: white;
+
+color: white;
 }
 
 #top-bg-hos {
@@ -180,6 +184,7 @@ background-size: cover;
 -o-background-size: cover;
 background-size: cover;
 
+
 }
 
 #top-bg-eat {
@@ -190,12 +195,25 @@ background-size: cover;
 -o-background-size: cover;
 background-size: cover;
 
+
+}
+
+.tp-col {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    border: solid;
+
+    border-radius: 25px;
+
+    border-width: 0.5px;
 }
 
 .button-position {
 
 display: flex;
 justify-content: center;
+padding-top: 20px;
 
 }
 
@@ -203,9 +221,10 @@ section {
   height: 70vh;
   padding: 1rem;
   background-color: rgba(240, 117, 24, 1);
-  border: solid;
-  border-width: 0.5px;
-  border-color: white;
+  border-left: solid;
+  border-right: solid;
+  border-width: 0.1px;
+  border-color: black;
 }
 
 section:nth-child(2n) {
