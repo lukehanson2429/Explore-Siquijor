@@ -13,3 +13,11 @@ $(".btn-custom-attr").mouseenter(function() {
 $(".btn-custom-attr").mouseleave(function() {
         $("#top-bg-attr").css("color", "white");
    });
+
+$(".btn-custom-hos").mouseenter(function() {
+        $("#top-bg-hos").css("color", "rgba(21, 209, 177, 1)");
+   });
+
+$(".btn-custom-hos").mouseleave(function() {
+        $("#top-bg-hos").css("color", "white");
+   });
