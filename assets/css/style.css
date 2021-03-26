@@ -182,6 +182,16 @@ background-size: cover;
 
 }
 
+#top-bg-eat {
+
+    background: url("../images/grill.jpg") no-repeat;
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+}
+
 .button-position {
 
 display: flex;
