@@ -84,15 +84,28 @@ padding: 0%;
     border-width: 0.5px;
 }
 
-.btn-custom {
+.btn-custom-hos {
     background-color: rgba(21, 209, 177, 1);
     border-color: rgba(255, 255, 255, 1);
     border-width: 0.5px;
 }
 
-.btn-custom:hover {
+.btn-custom-hos:hover {
     background-color: rgba(255, 255, 255, 1);
     border-color: rgba(21, 209, 177, 1);
+    border-width: 0.5px;
+}
+
+.btn-custom {
+    background-color: black;
+    border-color: rgba(255, 255, 255, 1);
+    border-width: 0.5px;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: rgba(255, 255, 255, 1);
+    border-color: black;
     border-width: 0.5px;
 }
 
