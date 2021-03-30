@@ -248,6 +248,26 @@ section:nth-child(3n) {
   background-color: rgba(21, 209, 177, 1);
 }
 
+#top-tip-img {
+    height: 400px;
+    width: 400px;
+
+    background: url("../images/top-tip-img.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 25%;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    
+}
 .form-bg {
     background: url("../images/form-bg.jpg") no-repeat center center fixed;
     display: flex;
