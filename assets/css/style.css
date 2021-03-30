@@ -312,6 +312,11 @@ section:nth-child(3n) {
     .col-btn {
     padding: 5px;
 }
+    #top-tip-img {
+    height: 300px;
+    width: 300px;
+    
+}
 }
 
 @media (max-width: 767px) {
