@@ -21,3 +21,7 @@ $(".btn-custom-hos").mouseenter(function() {
 $(".btn-custom-hos").mouseleave(function() {
         $("#top-bg-hos").css("color", "white");
    });
+
+$(".btn-toptip").click(function() {
+  $("#tp-Content").toggle(3000);
+});
