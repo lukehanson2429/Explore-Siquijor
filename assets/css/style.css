@@ -248,6 +248,10 @@ section:nth-child(3n) {
   background-color: rgba(21, 209, 177, 1);
 }
 
+#tp-Content {
+    display:none;
+}
+
 #top-tip-img {
     height: 400px;
     width: 400px;
