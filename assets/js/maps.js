@@ -132,7 +132,7 @@ var hostels = [
   },
 ];
 
-var eatDrink = [
+var foodDrink = [
   {   // Jungle of Peace Bar & BBQ
     coords: { lat: 9.134458, lng: 123.532479 },
     content: '<h3 class="eatdrink-content">Jungle of Peace Bar & BBQ</h3><p class="eatdrink-content">With some of the best views on the island this is the perfect place to unwind and watch the sunset with a nice cold beer/cocktail.</p>',

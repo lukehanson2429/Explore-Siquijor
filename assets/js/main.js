@@ -1,9 +1,9 @@
-$(".btn-custom-ed").mouseenter(function() {
-        $("#top-bg-eat").css("color", "rgba(240, 117, 24, 1)");
+$(".btn-custom-fd").mouseenter(function() {
+        $("#top-bg-fd").css("color", "rgba(240, 117, 24, 1)");
    });
 
-$(".btn-custom-ed").mouseleave(function() {
-        $("#top-bg-eat").css("color", "white");
+$(".btn-custom-fd").mouseleave(function() {
+        $("#top-bg-fd").css("color", "white");
    });
 
 $(".btn-custom-attr").mouseenter(function() {

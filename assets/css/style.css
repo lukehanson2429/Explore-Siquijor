@@ -6,6 +6,7 @@ html,body {
     overflow-x:hidden;
 }
 
+/*----Navbar Section - Start----*/
 .navbar{
       position:absolute;
       width:100%;
@@ -28,7 +29,9 @@ html,body {
     font-size: 18px;
     font-weight: bold;
 }
+/*----Navbar Section - End----*/
 
+/*----Carousel Section - Start----*/
 #carouselMain {
 padding: 0%;
 }
@@ -59,14 +62,31 @@ padding: 0%;
 
     border-color: white;
 }
+/*----Carousel Section - End----*/
 
-.btn-custom-ed {
+/*----Buttons - Start---------------*/
+/*----Home Button----*/
+.btn-custom {
+    background-color: black;
+    border-color: rgba(255, 255, 255, 1);
+    border-width: 0.5px;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: rgba(255, 255, 255, 1);
+    border-color: black;
+    border-width: 0.5px;
+}
+
+/*----Map Buttons----*/
+.btn-custom-fd {
     background-color: rgba(240, 117, 24, 1);
     border-color: rgba(255, 255, 255, 1);
     border-width: 0.5px;
 }
 
-.btn-custom-ed:hover {
+.btn-custom-fd:hover {
     background-color: rgba(255, 255, 255, 1);
     border-color: rgba(240, 117, 24, 1);
     border-width: 0.5px;
@@ -96,24 +116,14 @@ padding: 0%;
     border-width: 0.5px;
 }
 
-.btn-custom {
-    background-color: black;
-    border-color: rgba(255, 255, 255, 1);
-    border-width: 0.5px;
-    color: white;
-}
-
-.btn-custom:hover {
-    background-color: rgba(255, 255, 255, 1);
-    border-color: black;
-    border-width: 0.5px;
-}
+/*----Buttons - End---------------*/
 
 .hr-custom {
     background-color:rgba(255, 255, 255, 1);
     margin: 0;
 }
 
+/*----Map Section - Start---------------*/
 #map-section {
     font-family: "Neucha", sans-serif;
     height: 100vh;
@@ -158,18 +168,9 @@ padding: 0%;
     padding: 20px;
 }
 
-.contact-section {
-    font-family: "Neucha", sans-serif;
-    letter-spacing: 0.05em;
+/*----Map Section - End---------------*/
 
-    color: antiquewhite;
-    padding: 20px;
-}
-
-.header {
-    padding-bottom: 10px;
-}
-
+/*----Top Picks Section - Start---------------*/
 .scroll-container {
   height: 70vh;
   overflow-y: scroll;
@@ -200,7 +201,7 @@ background-size: cover;
 
 }
 
-#top-bg-eat {
+#top-bg-fd {
 
     background: url("../images/grill.jpg") no-repeat;
     -webkit-background-size: cover;
@@ -248,6 +249,10 @@ section:nth-child(3n) {
   background-color: rgba(21, 209, 177, 1);
 }
 
+/*----Top Picks Section - End---------------*/
+
+/*----Top Tip Section - Start---------------*/
+
 #tp-Content-2 {
     display:none;
 }
@@ -271,12 +276,30 @@ section:nth-child(3n) {
     border-width: 1px;
     
 }
+
+/*----Top Tip Section - End---------------*/
+
+/*----Contact Section - Start---------------*/
 .form-bg {
     background: url("../images/form-bg.jpg") no-repeat center center fixed;
     display: flex;
     justify-content: center;
 }
+.contact-section {
+    font-family: "Neucha", sans-serif;
+    letter-spacing: 0.05em;
 
+    color: antiquewhite;
+    padding: 20px;
+}
+
+.header {
+    padding-bottom: 10px;
+}
+
+/*----Contact Section - End---------------*/
+
+/*----Footer Section - Start---------------*/
 .footer {
     font-family: "Amatic SC", sans-serif;
     background-color:rgba(21, 209, 177, 1);
@@ -296,6 +319,7 @@ section:nth-child(3n) {
     color: black;
 }
 
+/*----Footer Section - End---------------*/
 
 @media (min-width: 1050px) {
     .carousel-item img {
