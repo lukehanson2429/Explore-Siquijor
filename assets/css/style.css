@@ -12,6 +12,10 @@ html,body {
       width:100%;
       z-index:10;
       max-width:100%;
+      background-color: rgba(225, 254, 251, 1);
+      border-bottom: solid;
+      border-width: 0.5px;
+      border-color: black;
 }
 
 .navbar .navbar-brand {
@@ -42,7 +46,7 @@ padding: 0%;
     position: absolute;
     letter-spacing: 0.05em;
     top: 200px;
-    color: white;
+    color: rgba(225, 254, 251, 1);
     z-index: 1000;
     padding-left: 20px;
     padding-right: 20px;
@@ -59,7 +63,7 @@ padding: 0%;
 
     border-width: 1px;
 
-    border-color: white;
+    border-color: rgba(225, 254, 251, 1);
 }
 /*----Carousel Section - End----*/
 
@@ -127,7 +131,7 @@ padding: 0%;
     font-family: "Neucha", sans-serif;
     height: 100vh;
 
-    background: url("../images/map-bg.jpg") no-repeat center center fixed;
+    background-color: rgba(225, 254, 251, 1);
     display: flex;
     justify-content: center;
 }
@@ -139,15 +143,16 @@ padding: 0%;
 
 #map {
     width: 100%;
-    height: 88%;
+    height: 88vh;
     border-top: solid;
     border-bottom: solid;
     border-color: rgba(255, 255, 255, 1);
     border-width: 1px;
+    align-content: left;
 }
 
 .main-content {
-    background-color: rgba(21, 209, 177, 1);
+    background-color: rgba(225, 254, 251, 1);
     font-family: "Neucha", sans-serif;
     letter-spacing: 0.05em;
     padding: 20px;
@@ -174,9 +179,9 @@ padding: 0%;
   height: 70vh;
   overflow-y: scroll;
 
-  border-color: white;
+  border-color: rgba(225, 254, 251, 1);
 
-color: white;
+color: rgba(225, 254, 251, 1);
 }
 
 #top-bg-hos {
