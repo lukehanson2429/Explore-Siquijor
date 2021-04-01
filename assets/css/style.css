@@ -175,45 +175,18 @@ padding: 0%;
 /*----Map Section - End---------------*/
 
 /*----Top Picks Section - Start---------------*/
+
+.padding-tp {
+    padding: 20px;
+}
+
 .scroll-container {
-  height: 70vh;
+  height: 88vh;
   overflow-y: scroll;
 
   border-color: rgba(225, 254, 251, 1);
 
 color: rgba(225, 254, 251, 1);
-}
-
-#top-bg-hos {
-
-    background: url("../images/cliffgarden.jpeg") no-repeat;
-    -webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-
-}
-
-#top-bg-attr {
-
-    background: url("../images/waterfall.jpeg") no-repeat;
-    -webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-
-
-}
-
-#top-bg-fd {
-
-    background: url("../images/grill.jpg") no-repeat;
-    -webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-
-
 }
 
 .tp-col {
@@ -236,7 +209,7 @@ padding-top: 20px;
 }
 
 section {
-  height: 70vh;
+  height: 88vh;
   padding: 1rem;
   background-color: rgba(240, 117, 24, 1);
   border-left: solid;
@@ -295,10 +268,6 @@ section:nth-child(3n) {
 
     color: antiquewhite;
     padding: 20px;
-}
-
-.header {
-    padding-bottom: 10px;
 }
 
 /*----Contact Section - End---------------*/

@@ -64,41 +64,40 @@
 <hr class="hr-custom">
 <div id="map-section">
 <div class="container-fluid map-padding">
-<div class="row justify-content-center">
-<div class="col-xs-3 col-btn">
+<div class="row">
+    <div class="col-md-4 text-center padding-tp">
+    <h2>Top Picks</h2>
+    </div>
+<div class="col-md-8 text-center col-btn">
     <input type="button" class="btn btn-custom-hos btn-lg" onclick="initMap(hostels)" value="Hostels">
-</div>
-<div class="col-xs-3 col-btn">
+
+
     <input type="button" class="btn btn-custom-attr btn-lg" onclick="initMap(attractions)" value="Attractions">
-</div>
-<div class="col-xs-3 col-btn">
+
     <input type="button" class="btn btn-custom-fd btn-lg" onclick="initMap(foodDrink)"  value="Food & Drink">
 </div>
 </div>
 <div class="row">
-<div class="col-md-8 ml-auto">
-<div id="map"></div>
-</div>
-</div>
-</div>
-</div>
-
-<div class="container-fluid main-content">
-<div class="row">
-<div class="col-md-6 padding-tp">
-    <h2 class="header text-center">Top Picks</h2>
+    <div class="col-md-4">
     <main class="scroll-container">
   <section data-index="1" id="top-bg-fd">
-      <div class="col-md-10 col-lg-8 tp-col">
+      <div class="col-sm-12 tp-col text-center">
     <h3>Aloha's Grill & Resto Bar</h3>
     <p>Situated in San Juan this is the perfect place to enjoy some freshly grilled meat/seafood. Simply rock up and choose which meat/seafood you want grilled. Normally served with rice & salad. Prices are reasonable with fresh fish, chicken skewers with a serving of rice & salad costing approx $5.</p>
     <div class="button-position">
     <input type="button" class="btn btn-custom-fd btn-lg" onclick="initMap(aloha);location.href='#map-section'"  value="Aloha's Grill & Resto Bar">
     </div>
     </div>
+     <div class="col-sm-12 tp-col text-center">
+    <h3>Island Casitas Siquijor</h3>
+    <p>Bar with laid back vibe right on the beach with cozy chairs and hammocks. Perfect place to watch the sunset. Also have extensive food menu.</p>
+    <div class="button-position">
+    <input type="button" class="btn btn-custom-fd btn-lg" onclick="initMap(aloha);location.href='#map-section'"  value="Aloha's Grill & Resto Bar">
+    </div>
+    </div>
   </section>
   <section data-index="2" id="top-bg-attr">
-      <div class="col-md-10 col-lg-8 tp-col">
+      <div class="col-sm-12 tp-col">
     <h3>Cambugahay Falls</h3>
 <p>A short 30min scooter journey from the San Juan area, this is the largest waterfall on Siquijor Island. To reach the waterfall you will need to pay a small fee to park your scooter and at the entrance with vendors selling snacks/softdrinks/beer. The waterfall has 3 tiers with a huge tarzan rope swing on the bottom tier. The water is very refreshing on a hot humid day!</p>
 <div class="button-position">
@@ -107,7 +106,7 @@
     </div>
   </section>
   <section data-index="3" id="top-bg-hos">
-      <div class="col-md-10 col-lg-8 tp-col">
+      <div class="col-sm-12 tp-col">
     <h3>Cliff Garden Hostel</h3>
     <p>Very chill location with accommodation built out of bamboo and beanbags outside dorms to relax in the evenings. Situated right on the coast with small cliffs to jump off and go snorkeling & a perfect view of the sunset also to enjoy a beer after your day adventuring.</p>
     <div class="button-position">
@@ -117,6 +116,15 @@
   </section>
 </main>
 </div>
+<div class="col-md-8 ml-auto">
+<div id="map"></div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container-fluid main-content">
+<div class="row">
 <div class="col-md-6 my-auto">
     <div id="tp-Content-1">
     <h2 class="text-center header">How to get there...</h2>
