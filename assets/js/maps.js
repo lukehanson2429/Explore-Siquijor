@@ -27,7 +27,7 @@ map.addListener("mouseout", () => {
     window.setTimeout(() => {
       map.setZoom(11);
       map.panTo({ lat: 9.186013, lng: 123.580776 });
-    }, 500);
+    }, 2000);
   });
 
 // Marker listener to adjust zoom on click
