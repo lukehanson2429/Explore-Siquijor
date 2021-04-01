@@ -68,7 +68,7 @@
                 <div class="row">
                     <div class="col-md-4 text-center padding-tp">
                         <h2>Top Picks</h2>
-                        <main class="scroll-container">
+                        <div class="scroll-container">
                             <section data-index="1">
                                 <div class="col-sm-12 tp-col text-center">
                                     <h3>Aloha's Grill & Resto Bar</h3>
@@ -87,6 +87,9 @@
                                         <input type="button" class="btn btn-custom-fd btn-lg" onclick="initMap(aloha);location.href='#map-section'" value="Island Casitas Siquijor" />
                                     </div>
                                 </div>
+                                     <h2 class="text-center header">
+                        <button class="btn btn-scroll"><i class="fa fa-arrow-down fa-2x" aria-hidden="true"></i></button>
+                    </h2>
                                 <div class="col-sm-12 tp-col">
                                     <h3>Cambugahay Falls</h3>
                                     <p>
@@ -125,8 +128,9 @@
                                         <input type="button" class="btn btn-custom-hos btn-lg text-center" onclick="initMap(cliffgarden);location.href='#map-section'" value="Cliff Garden Hostel" />
                                     </div>
                                 </div>
+                                <div id="scroll-bottom"></div>
                             </section>
-                        </main>
+                        </div>
                     </div>
                     <div class="col-md-8 text-center col-btn">
                         <input type="button" class="btn btn-custom-hos btn-lg" onclick="initMap(hostels)" value="Hostels" />
