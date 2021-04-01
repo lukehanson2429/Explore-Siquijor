@@ -8,14 +8,17 @@ html,body {
 
 /*----Navbar Section - Start----*/
 .navbar{
-      position:absolute;
       width:100%;
-      z-index:10;
+      z-index:1000000;
       max-width:100%;
       background-color: rgba(225, 254, 251, 1);
       border-bottom: solid;
       border-width: 0.5px;
       border-color: black;
+    
+      position: fixed;
+      top: 0;
+      transition: top 0.3s;
 }
 
 .navbar .navbar-brand {
