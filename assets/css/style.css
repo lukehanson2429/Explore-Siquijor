@@ -202,6 +202,10 @@ color: rgba(225, 254, 251, 1);
     border-width: 0.5px;
 }
 
+.tp-hidden {
+    display: none;
+}
+
 .button-position {
 
 display: flex;
