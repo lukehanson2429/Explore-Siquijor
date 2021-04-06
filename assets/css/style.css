@@ -122,6 +122,10 @@ padding: 0%;
     border-width: 0.5px;
 }
 
+.btn-padding {
+    margin-bottom: 20px;
+}
+
 /*----Buttons - End---------------*/
 
 .hr-custom {
@@ -132,25 +136,20 @@ padding: 0%;
 /*----Map Section - Start---------------*/
 #map-section {
     font-family: "Neucha", sans-serif;
-    height: 100vh;
-
     background-color: rgba(225, 254, 251, 1);
     display: flex;
     justify-content: center;
 }
 
-.map-padding {
-    padding-left: 0;
-    padding-right: 0;
+.padding-map {
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 #map {
     width: 100%;
     height: 88vh;
-    border-top: solid;
-    border-bottom: solid;
-    border-color: rgba(255, 255, 255, 1);
-    border-width: 1px;
     align-content: left;
 }
 
@@ -180,7 +179,8 @@ padding: 0%;
 /*----Top Picks Section - Start---------------*/
 
 .padding-tp {
-    padding: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 .scroll-container {
@@ -210,11 +210,12 @@ color: rgba(225, 254, 251, 1);
 }
 
 .button-position {
-
 display: flex;
 justify-content: center;
-padding-top: 20px;
+}
 
+.btn-scroll {
+margin-top: 40px;
 }
 
 section {
@@ -296,11 +297,6 @@ section {
     }
 }
 
-@media (min-width: 464px) {
-    .col-btn {
-    padding: 20px;
-}
-}
 @media (max-width: 464px) {
     .col-btn {
     padding: 5px;
@@ -308,7 +304,6 @@ section {
     #top-tip-img {
     height: 300px;
     width: 300px;
-    
 }
 }
 
@@ -316,6 +311,15 @@ section {
 .padding-tp {
   padding-left: 0px;
   padding-right: 0px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
+}
+.scroll-container {
+  height: 70vh;
+}
+}
+
+@media (max-width: 619px) {
+.scroll-container {
+  height: 75vh;
 }
 }
