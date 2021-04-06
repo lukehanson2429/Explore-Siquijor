@@ -88,7 +88,7 @@ padding: 0%;
 /*----Map Buttons----*/
 .btn-custom-fd {
     background-color: rgba(240, 117, 24, 1);
-    border-color: rgba(255, 255, 255, 1);
+    border-color: black;
     border-width: 0.5px;
 }
 
@@ -100,7 +100,7 @@ padding: 0%;
 
 .btn-custom-attr {
     background-color: rgba(171, 72, 196, 1);
-    border-color: rgba(255, 255, 255, 1);
+    border-color: black;
     border-width: 0.5px;
 }
 
@@ -112,7 +112,7 @@ padding: 0%;
 
 .btn-custom-hos {
     background-color: rgba(21, 209, 177, 1);
-    border-color: rgba(255, 255, 255, 1);
+    border-color: black;
     border-width: 0.5px;
 }
 
@@ -232,8 +232,8 @@ section {
 }
 
 #top-tip-img {
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
 
     background: url("../images/top-tip-img.jpg") no-repeat;
     -webkit-background-size: cover;
@@ -249,6 +249,7 @@ section {
     border-color: black;
     border-width: 1px;
     
+    display:none;
 }
 
 /*----Top Tip Section - End---------------*/
@@ -298,9 +299,6 @@ section {
 }
 
 @media (max-width: 464px) {
-    .col-btn {
-    padding: 5px;
-}
     #top-tip-img {
     height: 300px;
     width: 300px;

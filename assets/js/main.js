@@ -44,6 +44,10 @@ $(".btn-toptip").click(function() {
   $("#tp-Content-1").toggle(speed);
 });
 
+$(".btn-toptip").click(function() {
+  $("#top-tip-img").toggle(speed);
+});
+
 $(".btn-scroll").click(function() {
   $(".tp-hidden").show(speed);
 });
