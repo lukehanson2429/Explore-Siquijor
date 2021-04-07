@@ -182,6 +182,9 @@ padding: 0%;
     padding-top: 20px;
     padding-left: 20px;
 }
+.tp-margin {
+    margin-bottom: 30px;
+}
 
 .scroll-container {
   height: 88vh;
@@ -229,11 +232,12 @@ section {
 
 #tp-Content-2 {
     display:none;
+    line-height: 2;
 }
 
 #top-tip-img {
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
 
     background: url("../images/top-tip-img.jpg") no-repeat;
     -webkit-background-size: cover;
@@ -273,7 +277,7 @@ section {
 /*----Footer Section - Start---------------*/
 .footer {
     font-family: "Amatic SC", sans-serif;
-    background-color:rgba(21, 209, 177, 1);
+    background-color:rgba(225, 254, 251, 1);
 
 }
 .footer a {
