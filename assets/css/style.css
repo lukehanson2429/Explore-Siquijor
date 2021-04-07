@@ -137,6 +137,7 @@ padding: 0%;
 #map-section {
     font-family: "Neucha", sans-serif;
     background-color: rgba(225, 254, 251, 1);
+    letter-spacing: 0.05em;
     display: flex;
     justify-content: center;
 }
@@ -154,25 +155,15 @@ padding: 0%;
 }
 
 .main-content {
+    font-family: "Neucha", sans-serif;
+    letter-spacing: 0.05em;
+    padding: 20px;
+}
+
+.main-content-bg {
     background-color: rgba(225, 254, 251, 1);
-    font-family: "Neucha", sans-serif;
-    letter-spacing: 0.05em;
-    padding: 20px;
 }
 
-.eatdrink-content {
-    background-color: rgba(240, 117, 24, 1);
-    font-family: "Neucha", sans-serif;
-    letter-spacing: 0.05em;
-    padding: 20px;
-}
-
-.attr-content {
-    background-color: rgba(171, 72, 196, 1);
-    font-family: "Neucha", sans-serif;
-    letter-spacing: 0.05em;
-    padding: 20px;
-}
 
 /*----Map Section - End---------------*/
 
@@ -235,9 +226,17 @@ section {
     line-height: 2;
 }
 
+#tp-Content-2 li {
+    padding-top: 30px;
+}
+
+#tp-Content-2 ol {
+    padding-left: 0px;
+}
+
 #top-tip-img {
-    height: 300px;
-    width: 300px;
+    height: 600px;
+    width: 600px;
 
     background: url("../images/top-tip-img.jpg") no-repeat;
     -webkit-background-size: cover;
@@ -248,10 +247,10 @@ section {
     margin-left: auto;
     margin-right: auto;
 
-    border-radius: 25%;
+    border-radius: 5%;
     border: solid;
     border-color: black;
-    border-width: 1px;
+    border-width: 0.5px;
     
     display:none;
 }
