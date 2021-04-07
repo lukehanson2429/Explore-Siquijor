@@ -154,20 +154,27 @@ padding: 0%;
     align-content: left;
 }
 
-.main-content {
+.icon-content {
     font-family: "Neucha", sans-serif;
     letter-spacing: 0.05em;
-    padding: 20px;
-}
-
-.main-content-bg {
-    background-color: rgba(225, 254, 251, 1);
 }
 
 
 /*----Map Section - End---------------*/
 
 /*----Top Picks Section - Start---------------*/
+.main-content {
+    font-family: "Neucha", sans-serif;
+    letter-spacing: 0.05em;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main-content-bg {
+    background-color: rgba(225, 254, 251, 1);
+}
 
 .padding-tp {
     padding-top: 20px;
@@ -182,8 +189,7 @@ padding: 0%;
   overflow-y: scroll;
 
   border-color: rgba(225, 254, 251, 1);
-
-color: rgba(225, 254, 251, 1);
+    color: rgba(225, 254, 251, 1);
 }
 
 .tp-col {
@@ -247,7 +253,7 @@ section {
     margin-left: auto;
     margin-right: auto;
 
-    border-radius: 5%;
+    border-radius: 50%;
     border: solid;
     border-color: black;
     border-width: 0.5px;
@@ -303,8 +309,9 @@ section {
 
 @media (max-width: 464px) {
     #top-tip-img {
-    height: 300px;
-    width: 300px;
+    height: 325px;
+    width: 325px;
+    margin-bottom: 20px;
 }
 }
 
@@ -324,3 +331,11 @@ section {
   height: 75vh;
 }
 }
+
+@media (max-width: 800px) {
+    #top-tip-img {
+    height: 325px;
+    width: 325px;
+}
+}
+
