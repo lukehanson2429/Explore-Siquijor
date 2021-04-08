@@ -60,75 +60,75 @@ if(properties.content){
 var attractions = [
   {   // Cambugahay Falls
     coords: { lat: 9.1400, lng: 123.6267 },
-    content: '<div class="icon-content"><h3>Cambugahay Falls</h3><p>3-tiered waterfall & a swimming hole with clear waters, reachable by a short hike with stairs.</p></div>',
+    content: '<div class="icon-content"><h3>Cambugahay Falls</h3><br><p>3-tiered waterfall & a swimming hole with clear waters, reachable by a short hike with stairs.</p><br><p>Siquijor Circumferential Road, Lazi, Siquijor, Philippines</p><br><p>Monday to Sunday: 7am - 5:30pm</p><br><a href="https://www.tripadvisor.co.uk/Attraction_Review-g664445-d1550553-Reviews-Cambugahay_Falls-Siquijor_Island_Visayas.html" target="_blank">Cambugahay Falls - Travellers Choice 2020: Tripadvisor</a></div>',
     iconImage: "https://drive.google.com/uc?id=13g8V-6J-tfzg5ZFNNJudd1yDGUuQUVlD"
   },
   {   // Salagdoong Beach
     coords: { lat: 9.2125, lng: 123.6811 },
-    content: '<div class="icon-content"><h3>Salagdoong Beach</h3><p class="attr-content">Tropical stretch of sand featuring a diving platform & water slide, plus a casual restaurant. </p></div>',
+    content: '<div class="icon-content"><h3>Salagdoong Beach</h3><br><p>Tropical stretch of sand featuring a diving platform & water slide, plus a casual restaurant.</p><br><p>Maria, Philippines</p><br><a href="https://www.tripadvisor.co.uk/Attraction_Review-g664445-d1954895-Reviews-Salagdoong_Beach-Siquijor_Island_Visayas.html" target="_blank">Salagdoong Beach - Tripadvisor</a></div>',
     iconImage: "https://drive.google.com/uc?id=13g8V-6J-tfzg5ZFNNJudd1yDGUuQUVlD"
   },
   {   // Old Enchanted Balete Tree
     coords: { lat: 9.120970, lng: 123.575373 },
-    content: '<h3 class="attr-content">Old Enchanted Balete Tree</h3><p class="attr-content">Grand 400-year-old tree with a spring at its base where visitors have their feet nibbled on by fish. </p>',
+    content: '<div class="icon-content"><h3>Old Enchanted Balete Tree</h3><br><p>Grand 400-year-old tree with a spring at its base where visitors have their feet nibbled on by fish.</p><br><p>Siquijor Circumferential Road, Lazi, 6228 Siquijor, Philippines</p><br><p>Monday to Sunday: 6am - 6pm</p><br><a href="https://www.tripadvisor.co.uk/Attraction_Review-g664445-d1550106-Reviews-Old_Enchanted_Balete_Tree-Siquijor_Island_Visayas.html" target="_blank">Old Enchanted Balete Tree - Tripadvisor</a></div>',
     iconImage: "https://drive.google.com/uc?id=13g8V-6J-tfzg5ZFNNJudd1yDGUuQUVlD"
   },
   {   // Sambulawan Underground River
     coords: { lat: 9.141527, lng: 123.636714 },
-    content: '<h3 class="attr-content">Sambulawan Underground River</h3><p class="attr-content">The underground river system goes on for more than 1km through spectacular underground rock formations that will leave you breathless. It is believed that the river provides the headwaters of Cambugahay Falls, which is less than one kilometre away.</p>',
+    content: '<div class="icon-content"><h3>Sambulawan Underground River</h3><br><p>1km Underground river system with spectacular underground rock formations. It is believed that the river provides the headwaters of Cambugahay Falls.</p><br><p>Lazi, Siquijor, Philippines</p><br><p>Monday to Sunday: 9am - 5pm</p><br><p>+63 955 334 0730</p><br><a href="https://www.tripadvisor.co.uk/Attraction_Review-g3862482-d15680151-Reviews-Sambulawan_Underground_River-Siquijor_Siquijor_Island_Visayas.html" target="_blank">Sambulawan Underground River - Tripadvisor</a></div>',
     iconImage: "https://drive.google.com/uc?id=13g8V-6J-tfzg5ZFNNJudd1yDGUuQUVlD"
   },
   {   // Lagaan Falls
     coords: { lat: 9.1345, lng: 123.6136 },
-    content: '<h3 class="attr-content">Lagaan Falls</h3><p class="attr-content">While not as large as Cambugahay Falls this smaller waterfall is less touristy and provides swimming holes, rope swings, rock jumps, and small caves.</p>',
+    content: '<div class="icon-content"><h3>Lagaan Falls</h3><br><p>Smaller version of Cambugahay with swimming holes, rope swings, rock jumps, and small caves.</p><br><p>Lazi, Siquijor, Philippines</p><br><a href="https://www.siquijorisland.net/siquijor-lagaan-falls.html" target="_blank">Lagaan Falls - Siqujor Island Guide</a></div>',
     iconImage: "https://drive.google.com/uc?id=13g8V-6J-tfzg5ZFNNJudd1yDGUuQUVlD"
   },
   {   // Lugnason Falls
     coords: { lat: 9.1485, lng: 123.5338 },
-    content: '<h3 class="attr-content">Lugnason Falls</h3><p class="attr-content">Landscaped recreation area around an island waterfall, with spots for jumping into a natural pool.</p>',
+    content: '<div class="icon-content"><h3>Lugnason Falls</h3><br><p>Landscaped recreation area around an island waterfall, with spots for jumping into a natural pool.</p><br><p>San Juan, Siquijor, Philippines</p><br><a href="https://www.tripadvisor.co.uk/Attraction_Review-g3175044-d6537006-Reviews-Lugnason_Falls-San_Juan_Siquijor_Island_Visayas.html" target="_blank">Lugnason Falls - Tripadvisor</a></div>',
     iconImage: "https://drive.google.com/uc?id=13g8V-6J-tfzg5ZFNNJudd1yDGUuQUVlD"
   },
   {   // Cantabon Cave
     coords: { lat: 9.185831, lng: 123.561178 },
-    content: '<h3 class="attr-content">Cantabon Cave</h3><p class="attr-content">Big cave with stalactites, stalagmites & a pool of water, offering tours with helmets & flashlights.</p>',
+    content: '<div class="icon-content"><h3>Cantabon Cave</h3><br><p>Big cave with stalactites, stalagmites & a pool of water, offering tours with helmets & flashlights.</p><br><p>Siquijor, Philippines</p><br><a href="https://www.tripadvisor.co.uk/Attraction_Review-g664445-d1550363-Reviews-Cantabon_Cave-Siquijor_Island_Visayas.html" target="_blank">Cantabon Cave - Tripadvisor</a></div>',
     iconImage: "https://drive.google.com/uc?id=13g8V-6J-tfzg5ZFNNJudd1yDGUuQUVlD"
   },
-  {   // Tubod Beach Marine Sanctuary
+  {   // Tubod Beach/Marine Sanctuary
     coords: { lat: 9.1416, lng: 123.5091 },
-    content: '<h3 class="attr-content">Tubod Beach Marine Sanctuary</h3><p class="attr-content">White-sand beach featuring aqua water, snorkeling & scuba diving rentals & a marine sanctuary.</p>',
+    content: '<div class="icon-content"><h3>Tubod Beach/Marine Sanctuary</h3><br><p>White-sand beach featuring aqua water, snorkeling & scuba diving rentals & a marine sanctuary.</p><br><p>San Juan, Philippines</p><br><a href="https://www.tripadvisor.co.uk/Attraction_Review-g664445-d1575672-Reviews-Tubod_Marine_Sanctuary-Siquijor_Island_Visayas.html" target="_blank">Tubod Beach/Marine Sanctuary - Tripadvisor</a></div>',
     iconImage: "https://drive.google.com/uc?id=13g8V-6J-tfzg5ZFNNJudd1yDGUuQUVlD"
   },
 ];
 
 var hostels = [
-  {   // Cliff Garden Hostel, Content description - https://www.booking.com/hotel/ph/cliff-garden.en-gb.html
+  {   // Cliff Garden Hostel
     coords: { lat: 9.132135, lng: 123.528480 },
-    content: '<h3 class="main-content">Cliff Garden Hostel</h3><p class="main-content">Set in Siquijor, 1.4 miles from Salamangka Beach, Cliff Garden offers accommodation with a restaurant, free private parking, a garden and a terrace. All rooms are fitted with a patio with garden views and free WiFi.</p>',
+    content: '<div class="icon-content"><h3>Cliff Garden Hostel</h3><br><p>Tag-ibo, San Juan, 6227 Siquijor, Philippines</p><br><p>+639356623611</p><br><a href="https://www.booking.com/hotel/ph/cliff-garden.en-gb.html" target="_blank">Cliff Garden - Booking.com</a></div>',
     iconImage: "https://drive.google.com/uc?id=1dy5KhZty_V0FCE_-J6yWuQwO7Xn6f3fi"
   },
-  {   // Tori's Backpacker Paradise, Content description - https://www.facebook.com/pg/torisbackpackersparadisesiquijor/about/?ref=page_internal
+  {   // Tori's Backpacker Paradise
     coords: { lat: 9.146809, lng: 123.505965 },
-    content: '<h3 class="main-content">Toris Backpacker Paradise</h3><p class="main-content">Situated along the shores of Tubod Beach, Toris Backpackers Paradise offers basic and comfy accommodation with free parking on site. It features lush tropical gardens, small beach and restobar with free WiFi access.</p>',
+    content: '<div class="icon-content"><h3>Toris Backpacker Paradise</h3><br><p>Maite, San Juan, 6227 Siquijor, Philippines</p><br><p>+639071326666</p><br><a href="https://www.booking.com/hotel/ph/tori-s-backpacker-s-paradise.en-gb.html" target="_blank">Toris Backpacker Paradise - Booking.com</a></div>',
     iconImage: "https://drive.google.com/uc?id=1dy5KhZty_V0FCE_-J6yWuQwO7Xn6f3fi"
   },
-  {   // Stella'z Guesthouse, Content description - https://www.booking.com/hotel/ph/stella-39-z-guesthouse.en-gb.html
+  {   // Stella'z Guesthouse
     coords: { lat: 9.150441, lng: 123.501123 },
-    content: '<h3 class="main-content">Stellaz Guesthouse</h3><p class="main-content">Located in Siquijor, Stellaz guesthouse offers accommodation with private balconies. Among the facilities at this property are a 24-hour front desk and a shared kitchen, along with free WiFi throughout the property. Free private parking is available and the guest house also provides bike hire for guests who want to explore the surrounding area.</p>',
+    content: '<div class="icon-content"><h3>Stellaz Guesthouse</h3><br><p>Maite, San Juan, 6227 Siquijor, Philippines</p><br><a href="https://www.booking.com/hotel/ph/stella-39-z-guesthouse.en-gb.html" target="_blank">Stellaz guesthouse - Booking.com</a></div>',
     iconImage: "https://drive.google.com/uc?id=1dy5KhZty_V0FCE_-J6yWuQwO7Xn6f3fi"
   },
-  {   // JJ's Backpackers Village, Content description - https://www.booking.com/hotel/ph/jjs-backpackers-village.en-gb.html
+  {   // JJ's Backpackers Village
     coords: { lat: 9.168225, lng: 123.481887 },
-    content: '<h3 class="main-content">JJs Backpackers Village</h3><p class="main-content">Located in Siquijor, 1.1 miles from Pontod Beach, JJS BACKPACKERS VILLAGE provides accommodation with a restaurant, free private parking, a bar and a shared lounge. The accommodation features a private beach area, as well as a garden and a terrace. The accommodation offers a 24-hour front desk, room service and currency exchange for guests.</p>',
+    content: '<div class="icon-content"><h3>JJs Backpackers Village</h3><br><p>Solangon, San Juan Solangon, San Juan, 6227 Siquijor, Philippines</p><br><a href="https://www.tripadvisor.co.uk/Hotel_Review-g664445-d4465350-Reviews-JJ_s_Backpackers_Village-Siquijor_Island_Visayas.html" target="_blank">JJs Backpacker Village - Tripadvisor</a></div>',
     iconImage: "https://drive.google.com/uc?id=1dy5KhZty_V0FCE_-J6yWuQwO7Xn6f3fi"
   },
-  {   // Love Shack Hostel, Content description - https://www.hostelworld.com/hosteldetails.php/Love-Shack-Hostel-Cafe/Siquijor-Island-near-Bohol/301353
+  {   // Love Shack Hostel
     coords: { lat: 9.176596, lng: 123.466639 },
-    content: '<h3 class="main-content">Love Shack Hostel</h3><p class="main-content">Love Shack Hostel is located in Paliton road., San Juan, Siquijor Island. 3 minute walk to the famous Paliton Marine Sanctuary with a a long stretch of white beach with amazing sunset. Considered as the best spot for relaxing after a long day of exploring the magical island of Siquijor. Shops, bars, restaurants, banks/ATM machines are within the area of San Juan.</p>',
+    content: '<div class="icon-content"><h3>Love Shack Hostel</h3><br><p>Paliton road, Barangay, San Juan, Siquijor, Philippines</p><br><p>+639153937240</p><br><a href="https://www.tripadvisor.co.uk/Hotel_Review-g3175044-d17324100-Reviews-Love_Shack_Hostel-San_Juan_Siquijor_Island_Visayas.html" target="_blank">Love Shack Hostel - Tripadvisor</a></div>',
     iconImage: "https://drive.google.com/uc?id=1dy5KhZty_V0FCE_-J6yWuQwO7Xn6f3fi"
   },
-  {   // Lazy Lizard Hostel, Content description - https://www.booking.com/hotel/ph/lazy-lizard.en-gb.html
+  {   // Lazy Lizard Hostel
     coords: { lat: 9.170282, lng: 123.485502 },
-    content: '<h3 class="main-content">Lazy Lizard Hostel</h3><p class="main-content">Located in Siquijor, 1.5 miles from Pontod Beach, Lazy Lizard Hostel provides accommodation with a bar, free private parking, a shared lounge and a garden. Guests can enjoy garden views.</p>',
+    content: '<div class="icon-content"><h3>Lazy Lizard Hostel</h3><br><p>Purok Mabuhay, San Juan, 6227 Siquijor, Philippines</p><br><p>+639271516338</p><br><a href="https://www.booking.com/hotel/ph/lazy-lizard.en-gb.html" target="_blank">Lazy Lizard Hostel - Booking.com</a></div>',
     iconImage: "https://drive.google.com/uc?id=1dy5KhZty_V0FCE_-J6yWuQwO7Xn6f3fi"
   },
 ];
@@ -136,54 +136,108 @@ var hostels = [
 var foodDrink = [
   {   // Jungle of Peace Bar & BBQ
     coords: { lat: 9.134458, lng: 123.532479 },
-    content: '<h3 class="eatdrink-content">Jungle of Peace Bar & BBQ</h3><p class="eatdrink-content">With some of the best views on the island this is the perfect place to unwind and watch the sunset with a nice cold beer/cocktail.</p>',
+    content: '<div class="icon-content"><h3>Jungle of Peace Bar & BBQ</h3><br><p>5 Palong Palong Tag-ibo San juan Siquijor, 6227 Philippines</p><br><p>Monday to Sunday: 8am - 11pm</p><br><p>+639561973310</p><br><a href="https://jungle-of-peace-bar-and-bbq.business.site/" target="_blank">Jungle of Peace Bar & BBQ</a></div>',
     iconImage: "https://drive.google.com/uc?id=1w6THhD0zdF6MVohbXnpbhGmxLkNyxHVd"
   },
-  {   // Baha Bar content description  - http://baha-bar.com/
+  {   // Baha Bar 
     coords: { lat: 9.151960, lng: 123.499472 },
-    content: '<h3 class="eatdrink-content">Baha Bar</h3><p class="eatdrink-content">Baha Bar has a loungey informal laid-back atmosphere that welcomes overseas visitors and locals alike. It prides itself on having an extensive tapas style menu that permits you to experience the best flavours of the Philippines and a cocktail drinks menu unrivalled on Siquijor if not the Visayas.</p>',
+    content: '<div class="icon-content"><h3>Baha Bar</h3><br><p>San Juan, Maite, Siquijor, 6227 Siquijor, Philippines</p><br><p>Monday to Sunday: 11am - 11pm</p><br><p>+63 998 548 8784</p><br><a href="http://baha-bar.com/" target="_blank">Baha Bar</a></div>',
     iconImage: "https://drive.google.com/uc?id=1w6THhD0zdF6MVohbXnpbhGmxLkNyxHVd"
   },
     {   // Luca Loko Restaurant 
     coords: { lat: 9.154195, lng: 123.497322 },
-    content: '<h3 class="eatdrink-content">Luca Loko Restaurant</h3><p class="eatdrink-content">A small and very welcome restaurant that faces the ocean , conviently along the road,with mixed international cuisine, and a lot of healthy food for vegetarians and vegans.</p>',
+    content: '<div class="icon-content"><h3>Luca Loko Restaurant</h3><br><p>Barangay Maite San Juan Siquijor, 6226 Philippines</p><br><p>Monday to Sunday: 8am - 12am</p><br><p>+63 906 213 8840</p><br><a href="https://www.tripadvisor.co.uk/Restaurant_Review-g664445-d13313726-Reviews-Luca_Loko_Restaurant-Siquijor_Island_Visayas.html" target="_blank">Luca Loko Restaurant - Tripadvisor</a></div>',
     iconImage: "https://drive.google.com/uc?id=1ZcGRu7i1Pcddjl4LHdItMm0JaBapAcEN"
   },
-      {   // Island Casitas Siquijor
+        {   // Island Casitas Siquijor
     coords: { lat: 9.160996, lng: 123.489620 },
-    content: '<h3 class="eatdrink-content">Island Casitas Siquijor</h3><p class="eatdrink-content">Bar with laid back vibe right on the beach with cozy chairs and hammocks. Perfect place to watch the sunset. Also have extensive food menu.</p>',
+    content: '<div class="icon-content"><h3>Island Casitas Siquijor</h3><br><p>San Juan, Siquijor, Philippines</p><br><p>Monday to Sunday: 8am - 10pm</p><br><p>+639171269136</p><br><a href="https://www.tripadvisor.co.uk/Restaurant_Review-g3862482-d17385178-Reviews-Island_Casitas-Siquijor_Siquijor_Island_Visayas.html" target="_blank">Island Casitas Siquijor - Tripadvisor</a></div>',
     iconImage: "https://drive.google.com/uc?id=1w6THhD0zdF6MVohbXnpbhGmxLkNyxHVd"
   },
         {   // Aloha's Grill & Resto Bar
     coords: { lat: 9.164375, lng: 123.486283 },
-    content: '<h3 class="eatdrink-content">Alohas Grill & Resto Bar</h3><p class="eatdrink-content">Unpretentious BBQ place that serves you freshly cooked meat and sea food with your own choice of sides.</p>',
+    content: '<div class="icon-content"><h3>Alohas Grill & Resto Bar</h3><br><p>Siquijor Circumferential Road, Lalao, San Juan, Siquijor, Philippines</p><br><p>+63 977 096 4426</p><br><a href="https://www.tripadvisor.co.uk/Restaurant_Review-g664445-d19384793-Reviews-Aloha_s_Grill_and_Restobar-Siquijor_Island_Visayas.html" target="_blank">Alohas Grill and Restobar - Tripadvisor</a></div>',
     iconImage: "https://drive.google.com/uc?id=1ZcGRu7i1Pcddjl4LHdItMm0JaBapAcEN"
   },
           {   // Roch Cuisine
     coords: { lat: 9.165614, lng: 123.484945 },
-    content: '<h3 class="eatdrink-content">Roch Cuisine</h3><p class="eatdrink-content">Pop up restaurant in perfect sunset location. Try the special Mango Cake for dessert!</p>',
+    content: '<div class="icon-content"><h3>Roch Cuisine</h3><br><p>Pop up restaurant in perfect sunset location. Try the special Mango Cake for dessert!</p><br><p>6227 San Juan, Philippines</p><br><p>Monday to Sunday: 5pm - 8pm</p><br><p>+63 949 973 2479</p></div>',
     iconImage: "https://drive.google.com/uc?id=1ZcGRu7i1Pcddjl4LHdItMm0JaBapAcEN"
   },
             {   // Monkey Business
     coords: { lat: 9.172996, lng: 123.476098 },
-    content: '<h3 class="eatdrink-content">Monkey Business</h3><p class="eatdrink-content">Western & Filipino cuisine with live music every saturday. Special discount on burgers every saturday too!</p>',
+    content: '<div class="icon-content"><h3>Monkey Business</h3><br><p>Western & Filipino cuisine with live music every saturday. Special discount on burgers every saturday too!</p><br><p>Solangon, 6227 San Juan, Philippines</p><br><p>Monday to Sunday: 8am - 11:45pm</p><br><p>+63 906 803 2570</p><br><a href="https://m.facebook.com/MonkeyBusinessSiquijor/" target="_blank">Monkey Business - Facebook</a></div>',
     iconImage: "https://drive.google.com/uc?id=1ZcGRu7i1Pcddjl4LHdItMm0JaBapAcEN"
   },
   ];
 
-  var cbfalls = [
+  var topPick1 = [
+        {   // Aloha's Grill & Resto Bar
+    coords: { lat: 9.164375, lng: 123.486283 },
+    content: '<div class="icon-content"><h3>Alohas Grill & Resto Bar</h3><br><p>Siquijor Circumferential Road, Lalao, San Juan, Siquijor, Philippines</p><br><p>+63 977 096 4426</p><br><a href="https://www.tripadvisor.co.uk/Restaurant_Review-g664445-d19384793-Reviews-Aloha_s_Grill_and_Restobar-Siquijor_Island_Visayas.html" target="_blank">Alohas Grill and Restobar - Tripadvisor</a></div>',
+    iconImage: "https://drive.google.com/uc?id=1ZcGRu7i1Pcddjl4LHdItMm0JaBapAcEN"
+  },
+];
+
+  var topPick2 = [
+        {   // Island Casitas Siquijor
+    coords: { lat: 9.160996, lng: 123.489620 },
+    content: '<div class="icon-content"><h3>Island Casitas Siquijor</h3><br><p>San Juan, Siquijor, Philippines</p><br><p>Monday to Sunday: 8am - 10pm</p><br><p>+639171269136</p><br><a href="https://www.tripadvisor.co.uk/Restaurant_Review-g3862482-d17385178-Reviews-Island_Casitas-Siquijor_Siquijor_Island_Visayas.html" target="_blank">Island Casitas Siquijor - Tripadvisor</a></div>',
+    iconImage: "https://drive.google.com/uc?id=1w6THhD0zdF6MVohbXnpbhGmxLkNyxHVd"
+  },
+];
+
+  var topPick3 = [
   {   // Cambugahay Falls
     coords: { lat: 9.1400, lng: 123.6267 },
-    content: '<h3 class="attr-content">Cambugahay Falls</h3><p class="attr-content">3-tiered waterfall & a swimming hole with clear waters, reachable by a short hike with stairs.</p>',
+    content: '<div class="icon-content"><h3>Cambugahay Falls</h3><br><p>3-tiered waterfall & a swimming hole with clear waters, reachable by a short hike with stairs.</p><br><p>Siquijor Circumferential Road, Lazi, Siquijor, Philippines</p><br><p>Monday to Sunday: 7am - 5:30pm</p><br><a href="https://www.tripadvisor.co.uk/Attraction_Review-g664445-d1550553-Reviews-Cambugahay_Falls-Siquijor_Island_Visayas.html" target="_blank">Cambugahay Falls - Travellers Choice 2020: Tripadvisor</a></div>',
     iconImage: "https://drive.google.com/uc?id=13g8V-6J-tfzg5ZFNNJudd1yDGUuQUVlD"
   },
 ];
 
-  var aloha = [
-        {   // Aloha's Grill & Resto Bar
-    coords: { lat: 9.164375, lng: 123.486283 },
-    content: '<h3 class="eatdrink-content">Alohas Grill & Resto Bar</h3><p class="eatdrink-content">Unpretentious BBQ place that serves you freshly cooked meat and sea food with your own choice of sides.</p>',
-    iconImage: "https://drive.google.com/uc?id=1ZcGRu7i1Pcddjl4LHdItMm0JaBapAcEN"
+  var topPick4 = [
+  {   // Tubod Beach/Marine Sanctuary
+    coords: { lat: 9.1416, lng: 123.5091 },
+    content: '<div class="icon-content"><h3>Tubod Beach/Marine Sanctuary</h3><br><p>White-sand beach featuring aqua water, snorkeling & scuba diving rentals & a marine sanctuary.</p><br><p>San Juan, Philippines</p><br><a href="https://www.tripadvisor.co.uk/Attraction_Review-g664445-d1575672-Reviews-Tubod_Marine_Sanctuary-Siquijor_Island_Visayas.html" target="_blank">Tubod Beach/Marine Sanctuary - Tripadvisor</a></div>',
+    iconImage: "https://drive.google.com/uc?id=13g8V-6J-tfzg5ZFNNJudd1yDGUuQUVlD"
+  },
+];
+
+  var topPick5 = [
+  {   // Cliff Garden Hostel
+    coords: { lat: 9.132135, lng: 123.528480 },
+    content: '<div class="icon-content"><h3>Cliff Garden Hostel</h3><br><p>Tag-ibo, San Juan, 6227 Siquijor, Philippines</p><br><p>+639356623611</p><br><a href="https://www.booking.com/hotel/ph/cliff-garden.en-gb.html" target="_blank">Cliff Garden - Booking.com</a></div>',
+    iconImage: "https://drive.google.com/uc?id=1dy5KhZty_V0FCE_-J6yWuQwO7Xn6f3fi"
+  },
+];
+
+  var topPick6 = [
+  {   // Lazy Lizard Hostel
+    coords: { lat: 9.170282, lng: 123.485502 },
+    content: '<div class="icon-content"><h3>Lazy Lizard Hostel</h3><br><p>Purok Mabuhay, San Juan, 6227 Siquijor, Philippines</p><br><p>+639271516338</p><br><a href="https://www.booking.com/hotel/ph/lazy-lizard.en-gb.html" target="_blank">Lazy Lizard Hostel - Booking.com</a></div>',
+    iconImage: "https://drive.google.com/uc?id=1dy5KhZty_V0FCE_-J6yWuQwO7Xn6f3fi"
+  },
+];
+
+
+  var topTip1 = [
+        {   // Postada Scooter Hire
+    coords: { lat: 9.216617, lng: 123.513314 },
+    content: '<div class="icon-content"><h3>POSTADA Motorcycle Rental Agency</h3><p>Scooters to rent as you step off the pier on your left. If you would prefer another mode of transport, prices are as follows:</p><br><a href="https://siquijordirectory.com/postada-the-tourists-tricycles-in-siquijor-island/" target="_blank">Province of Siquijor Tourism Accredited Drivers Association (POSTADA) Tariff Rates for Multicab, Van for Rent and Tricycle</a></div>',
+  },
+];
+
+  var topTip2 = [
+        {   // ATM
+    coords: { lat: 9.214731, lng: 123.513230 },
+    content: '<div class="icon-content"><h3>DBP ATM</h3><p>Main cashpoint when you arrive in Siquijor.</p><br><p>Open 24 hours</p><br><p>+63354809762</p></div>',
+  },
+];
+
+  var topTip3 = [
+        {   // Czar's Palace Friday Party
+    coords: { lat: 9.152048, lng: 123.499835 },
+    content: '<div class="icon-content"><h3>C Zars Place</h3><p>San Juan, Siquijor, Philippines</p><br><p>Friday night till late - opposite Baha Bar!</p><br><p>+63354815012</p></div>',
   },
 ];
 
