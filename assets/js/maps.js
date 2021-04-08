@@ -220,24 +220,22 @@ var foodDrink = [
 ];
 
 
-  var topTip1 = [
+  var topTips = [
         {   // Postada Scooter Hire
     coords: { lat: 9.216617, lng: 123.513314 },
     content: '<div class="icon-content"><h3>POSTADA Motorcycle Rental Agency</h3><p>Scooters to rent as you step off the pier on your left. If you would prefer another mode of transport, prices are as follows:</p><br><a href="https://siquijordirectory.com/postada-the-tourists-tricycles-in-siquijor-island/" target="_blank">Province of Siquijor Tourism Accredited Drivers Association (POSTADA) Tariff Rates for Multicab, Van for Rent and Tricycle</a></div>',
+    iconImage: "https://drive.google.com/uc?id=1m6RvTMQoDrminWU6fZqAlKNorPf0vmYa"
   },
-];
-
-  var topTip2 = [
-        {   // ATM
+          {   // ATM
     coords: { lat: 9.214731, lng: 123.513230 },
     content: '<div class="icon-content"><h3>DBP ATM</h3><p>Main cashpoint when you arrive in Siquijor.</p><br><p>Open 24 hours</p><br><p>+63354809762</p></div>',
+    iconImage: "https://drive.google.com/uc?id=1FSeCOCw3mz586oakR9RS_e0PuBsNTdWg"
+  },
+          {   // Czar's Palace Friday Party
+    coords: { lat: 9.152048, lng: 123.499835 },
+    content: '<div class="icon-content"><h3>C Zars Place</h3><p>San Juan, Siquijor, Philippines</p><br><p>Friday night till late - opposite Baha Bar!</p><br><p>+63354815012</p></div>',
+    iconImage: "https://drive.google.com/uc?id=1gnfZADIwleJm6uKj59WNblbtAwdKw3vR"
   },
 ];
 
-  var topTip3 = [
-        {   // Czar's Palace Friday Party
-    coords: { lat: 9.152048, lng: 123.499835 },
-    content: '<div class="icon-content"><h3>C Zars Place</h3><p>San Juan, Siquijor, Philippines</p><br><p>Friday night till late - opposite Baha Bar!</p><br><p>+63354815012</p></div>',
-  },
-];
 
