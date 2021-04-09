@@ -5,6 +5,7 @@ function initMap(category) {
   map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 9.186013, lng: 123.580776 },
     zoom: 11,
+    disableDefaultUI: true,
   });
 
 
