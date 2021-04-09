@@ -1,3 +1,8 @@
+(function () {
+emailjs.init("user_05b6DcHp56rlXYPEUQP1y");
+})();
+
+
 function sendMail(contactForm) {
     emailjs.send("gmail", "exploresiquijor", {
         "from_name": contactForm.name.value,
@@ -6,10 +11,10 @@ function sendMail(contactForm) {
     })
     .then(
         function(response) {
-            console.log("SUCCESS", response);
+            alert("SUCCESS", response);
         },
         function(error) {
-            console.log("FAILED", error);
+            alert("FAILED", error);
         });
         return false;
 }
