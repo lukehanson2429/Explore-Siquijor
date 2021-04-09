@@ -3,6 +3,7 @@ let map;
 // init Map function only initiated dependant on button clicked and will display correct markers dependant on array variable
 function initMap(category) {
   map = new google.maps.Map(document.getElementById("map"), {
+    mapId: "58081ee022056e14",
     center: { lat: 9.186013, lng: 123.580776 },
     zoom: 11,
     disableDefaultUI: true,
