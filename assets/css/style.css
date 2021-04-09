@@ -266,9 +266,18 @@ section {
 /*----Contact Section - Start---------------*/
 .form-bg {
     background: url("../images/form-bg.jpg") no-repeat center center fixed;
-    display: flex;
-    justify-content: center;
+    position: relative;
 }
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
 .contact-section {
     font-family: "Neucha", sans-serif;
     letter-spacing: 0.05em;
