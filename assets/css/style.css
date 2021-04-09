@@ -126,12 +126,23 @@ padding: 0%;
     margin-bottom: 20px;
 }
 
+/*----Form Button----*/
+.btn-custom-form {
+    background-color: rgba(255, 255, 255, 1);
+    border-color: black;
+    border-width: 0.5px;
+    color: black;
+}
+
+.btn-custom-form:hover {
+    background-color: black;
+    border-color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    border-width: 0.5px;
+}
+
 /*----Buttons - End---------------*/
 
-.hr-custom {
-    background-color:rgba(255, 255, 255, 1);
-    margin: 0;
-}
 
 /*----Map Section - Start---------------*/
 #map-section {

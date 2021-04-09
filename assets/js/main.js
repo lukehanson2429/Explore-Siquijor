@@ -1,5 +1,5 @@
 var topPicksScroll = $('.scroll-container')
-const speed = 2000;
+const speed = 1000;
 
 // Used from tutorial and adjusted to suit my project- https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp
 var prevScrollpos = window.pageYOffset;
@@ -31,6 +31,24 @@ window.onscroll = function() {
   
 
 $(".btn-custom").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#map-section").offset().top
+    }, speed);
+});
+
+$(".btn-custom-attr").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#map-section").offset().top
+    }, speed);
+});
+
+$(".btn-custom-hos").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#map-section").offset().top
+    }, speed);
+});
+
+$(".btn-custom-fd").click(function() {
     $('html, body').animate({
         scrollTop: $("#map-section").offset().top
     }, speed);
