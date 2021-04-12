@@ -10,7 +10,7 @@ function initMap(category) {
   });
 
 
-// for Loop through markers dependant on category
+
 for(var i = 0;i < category.length;i++){
     addMarker(category[i]);
 }
