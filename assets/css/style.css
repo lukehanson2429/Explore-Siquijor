@@ -202,7 +202,7 @@ body {
     padding-left: 20px;
 }
 .tp-margin {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .scroll-container {
@@ -350,15 +350,15 @@ section {
         padding-right: 0px;
         padding-bottom: 0px;
     }
-    .scroll-container {
-        height: 70vh;
-    }
 }
 
 @media (max-width: 619px) {
     .scroll-container {
-        height: 75vh;
-    }
+    height: 100vh;
+}
+.main-content {
+    padding-top: 20px;
+}
 }
 
 @media (max-width: 800px) {
