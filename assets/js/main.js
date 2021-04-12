@@ -1,7 +1,7 @@
 var topPicksScroll = $('.scroll-container')
 const speed = 1000;
 
-// Used from tutorial and adjusted to suit my project- https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp
+// Navbar Collapse on Scroll (adjusted to suit my project)- https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
@@ -12,6 +12,11 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
+
+// Function to collapse Navbar on mobile device on Click
+$('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
 
   
     // Smooth Scrolling adjusted to suit my project - https://documentation.unbounce.com/hc/en-us/articles/360022719471-Adding-Smooth-Scrolling-Links-and-Buttons-for-Anchor-Links
