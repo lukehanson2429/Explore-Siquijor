@@ -122,6 +122,18 @@ padding: 0%;
     border-width: 0.5px;
 }
 
+.btn-custom-tt {
+    background-color: rgba(245, 232, 97, 1);
+    border-color: black;
+    border-width: 0.5px;
+}
+
+.btn-custom-tt:hover {
+    background-color: rgba(255, 255, 255, 1);
+    border-color: rgba(245, 232, 97, 1);
+    border-width: 0.5px;
+}
+
 .btn-padding {
     margin-bottom: 20px;
 }

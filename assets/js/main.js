@@ -14,7 +14,7 @@ window.onscroll = function() {
 }
 
 // Function to collapse Navbar on mobile device on Click
-$('.navbar-nav>li>a').on('click', function(){
+$('.navbar-nav>li>a').click(function(){
     $('.navbar-collapse').collapse('hide');
 });
 
