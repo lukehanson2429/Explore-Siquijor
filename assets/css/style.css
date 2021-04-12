@@ -1,24 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Neucha&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Neucha&display=swap");
 
-html,body {
-    margin:0;
-    padding:0;
-    overflow-x:hidden;
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 /*----Navbar Section - Start----*/
-.navbar{
-      width:100%;
-      z-index:1000000;
-      max-width:100%;
-      background-color: rgba(225, 254, 251, 1);
-      border-bottom: solid;
-      border-width: 0.5px;
-      border-color: black;
-    
-      position: fixed;
-      top: 0;
-      transition: top 0.3s;
+.navbar {
+    width: 100%;
+    z-index: 1000000;
+    max-width: 100%;
+    background-color: rgba(225, 254, 251, 1);
+    border-bottom: solid;
+    border-width: 0.5px;
+    border-color: black;
+
+    position: fixed;
+    top: 0;
+    transition: top 0.3s;
 }
 
 .navbar .navbar-brand {
@@ -26,7 +27,6 @@ html,body {
     font-size: 36px;
     font-weight: bold;
 }
-
 
 .navbar-custom {
     font-family: "Amatic SC", sans-serif;
@@ -40,7 +40,7 @@ html,body {
 
 /*----Carousel Section - Start----*/
 #carouselMain {
-padding: 0%;
+    padding: 0%;
 }
 
 .home-text {
@@ -126,6 +126,7 @@ padding: 0%;
     background-color: rgba(245, 232, 97, 1);
     border-color: black;
     border-width: 0.5px;
+    margin-top: 20px;
 }
 
 .btn-custom-tt:hover {
@@ -155,7 +156,6 @@ padding: 0%;
 
 /*----Buttons - End---------------*/
 
-
 /*----Map Section - Start---------------*/
 #map-page-content {
     font-family: "Neucha", sans-serif;
@@ -182,7 +182,6 @@ padding: 0%;
     letter-spacing: 0.05em;
 }
 
-
 /*----Map Section - End---------------*/
 
 /*----Top Picks Section - Start---------------*/
@@ -208,10 +207,10 @@ padding: 0%;
 }
 
 .scroll-container {
-  height: 88vh;
-  overflow-y: scroll;
+    height: 88vh;
+    overflow-y: scroll;
 
-  border-color: rgba(225, 254, 251, 1);
+    border-color: rgba(225, 254, 251, 1);
     color: rgba(225, 254, 251, 1);
 }
 
@@ -233,17 +232,17 @@ padding: 0%;
 }
 
 .button-position {
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .btn-scroll {
-margin-top: 40px;
+    margin-top: 40px;
 }
 
 section {
-  height: auto;
-  background-color: rgba(225, 254, 251, 1);
+    height: auto;
+    background-color: rgba(225, 254, 251, 1);
 }
 
 /*----Top Picks Section - End---------------*/
@@ -251,7 +250,7 @@ section {
 /*----Top Tip Section - Start---------------*/
 
 #tp-Content-2 {
-    display:none;
+    display: none;
     line-height: 2;
 }
 
@@ -280,8 +279,8 @@ section {
     border: solid;
     border-color: black;
     border-width: 0.5px;
-    
-    display:none;
+
+    display: none;
 }
 
 /*----Top Tip Section - End---------------*/
@@ -314,8 +313,7 @@ section {
 /*----Footer Section - Start---------------*/
 .footer {
     font-family: "Amatic SC", sans-serif;
-    background-color:rgba(225, 254, 251, 1);
-
+    background-color: rgba(225, 254, 251, 1);
 }
 .footer a {
     font-size: 36px;
@@ -341,33 +339,32 @@ section {
 
 @media (max-width: 464px) {
     #top-tip-img {
-    height: 325px;
-    width: 325px;
-    margin-bottom: 20px;
-}
+        height: 325px;
+        width: 325px;
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 767px) {
-.padding-tp {
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-}
-.scroll-container {
-  height: 70vh;
-}
+    .padding-tp {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
+    .scroll-container {
+        height: 70vh;
+    }
 }
 
 @media (max-width: 619px) {
-.scroll-container {
-  height: 75vh;
-}
+    .scroll-container {
+        height: 75vh;
+    }
 }
 
 @media (max-width: 800px) {
     #top-tip-img {
-    height: 325px;
-    width: 325px;
+        height: 325px;
+        width: 325px;
+    }
 }
-}
-
