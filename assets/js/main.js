@@ -59,6 +59,12 @@ $(".btn-custom-fd").click(function() {
     }, speed);
 });
 
+$(".btn-custom-tt").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#map-section").offset().top
+    }, speed);
+});
+
 $(".btn-toptip").click(function() {
   $("#tp-Content-2").toggle(speed);
 });
