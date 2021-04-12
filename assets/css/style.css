@@ -87,38 +87,38 @@ padding: 0%;
 
 /*----Map Buttons----*/
 .btn-custom-fd {
-    background-color: rgba(240, 117, 24, 1);
+    background-color: rgba(245, 161, 97, 1);
     border-color: black;
     border-width: 0.5px;
 }
 
 .btn-custom-fd:hover {
     background-color: rgba(255, 255, 255, 1);
-    border-color: rgba(240, 117, 24, 1);
+    border-color: rgba(245, 161, 97, 1);
     border-width: 0.5px;
 }
 
 .btn-custom-attr {
-    background-color: rgba(171, 72, 196, 1);
+    background-color: rgba(212, 173, 222, 1);
     border-color: black;
     border-width: 0.5px;
 }
 
 .btn-custom-attr:hover {
     background-color: rgba(255, 255, 255, 1);
-    border-color: rgba(171, 72, 196, 1);
+    border-color: rgba(212, 173, 222, 1);
     border-width: 0.5px;
 }
 
 .btn-custom-hos {
-    background-color: rgba(21, 209, 177, 1);
+    background-color: rgba(130, 228, 211, 1);
     border-color: black;
     border-width: 0.5px;
 }
 
 .btn-custom-hos:hover {
     background-color: rgba(255, 255, 255, 1);
-    border-color: rgba(21, 209, 177, 1);
+    border-color: rgba(130, 228, 211, 1);
     border-width: 0.5px;
 }
 
