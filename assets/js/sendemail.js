@@ -1,3 +1,5 @@
+// Function to initialise email & send Mail based off (adjusted to suit my project)- sending Emails Using EmailJS lesson
+
 (function () {
     emailjs.init("user_05b6DcHp56rlXYPEUQP1y");
 })();
