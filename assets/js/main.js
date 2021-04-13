@@ -1,4 +1,7 @@
+// Variable with class of .scroll-container
 var topPicksScroll = $(".scroll-container");
+
+// Variable speed for all functions
 const speed = 1000;
 
 // Navbar Collapse on Scroll (adjusted to suit my project)- https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp
@@ -33,6 +36,7 @@ $('a[href*="#"]')
         }
     });
 
+// Function to scroll map section when clicking initial landing button
 $(".btn-custom").click(function () {
     $("html, body").animate(
         {
@@ -42,6 +46,7 @@ $(".btn-custom").click(function () {
     );
 });
 
+// Function to scroll map section when clicking attraction button 
 $(".btn-custom-attr").click(function () {
     $("html, body").animate(
         {
@@ -51,6 +56,7 @@ $(".btn-custom-attr").click(function () {
     );
 });
 
+// Function to scroll map section when clicking hostel button 
 $(".btn-custom-hos").click(function () {
     $("html, body").animate(
         {
@@ -60,6 +66,7 @@ $(".btn-custom-hos").click(function () {
     );
 });
 
+// Function to scroll map section when clicking food & drink button 
 $(".btn-custom-fd").click(function () {
     $("html, body").animate(
         {
@@ -69,6 +76,7 @@ $(".btn-custom-fd").click(function () {
     );
 });
 
+// Function to scroll map section when clicking button under top tips section
 $(".btn-custom-tt").click(function () {
     $("html, body").animate(
         {
@@ -78,26 +86,32 @@ $(".btn-custom-tt").click(function () {
     );
 });
 
+// Function to toggle top tips content when clicking top tips button 
 $(".btn-toptip").click(function () {
     $("#tp-Content-2").toggle(speed);
 });
 
+// Function to toggle hide how to get there section
 $(".btn-toptip").click(function () {
     $("#tp-Content-1").toggle(speed);
 });
 
+// Function to toggle top tips content image when clicking top tips button 
 $(".btn-toptip").click(function () {
     $("#top-tip-img").toggle(speed);
 });
 
+// Function to show hidden top picks when clicking .btn-scroll
 $(".btn-scroll").click(function () {
     $(".tp-hidden").show(speed);
 });
 
+// Function to hide .btn-scroll on click
 $(".btn-scroll").click(function () {
     $(".btn-scroll").hide(speed);
 });
 
+// Function to scroll to top of .btn scroll postion on click
 $(topPicksScroll).on("click", ".btn-scroll", function () {
     var scrollTo = $(this);
     topPicksScroll.animate(

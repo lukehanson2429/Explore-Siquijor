@@ -1,6 +1,10 @@
+// Variable for initial Map on Page Load
 let mapInitial;
+
+// Variable for New Map with Icons
 let map;
 
+// Function to load initial Map 
 function initMap() {
     mapInitial = new google.maps.Map(document.getElementById("map"), {
         mapId: "58081ee022056e14",
@@ -10,6 +14,7 @@ function initMap() {
     });
 };
 
+// Function to show certain icons, only activated when a certain button category is clicked
 function iconMap(category) {
     map = new google.maps.Map(document.getElementById("map"), {
         mapId: "58081ee022056e14",
@@ -18,6 +23,7 @@ function iconMap(category) {
         disableDefaultUI: true,
     });
 
+// Loop through the array category depending on which category has been clicked 
     for (var i = 0; i < category.length; i++) {
         addMarker(category[i]);
     }
@@ -63,7 +69,7 @@ function iconMap(category) {
     }
 }
 
-// var Attractions Markers stored in Array
+// var Attractions Markers stored in Array of Objects
 var attractions = [
     {
         // Cambugahay Falls
@@ -123,6 +129,7 @@ var attractions = [
     },
 ];
 
+// var hostels Markers stored in Array of Objects
 var hostels = [
     {
         // Cliff Garden Hostel
@@ -168,6 +175,7 @@ var hostels = [
     },
 ];
 
+// var food & Drink Markers stored in Array of Objects
 var foodDrink = [
     {
         // Jungle of Peace Bar & BBQ
@@ -220,6 +228,7 @@ var foodDrink = [
     },
 ];
 
+// Top Pick 1 Array
 var topPick1 = [
     {
         // Aloha's Grill & Resto Bar
@@ -230,6 +239,7 @@ var topPick1 = [
     },
 ];
 
+// Top Pick 2 Array
 var topPick2 = [
     {
         // Island Casitas Siquijor
@@ -240,6 +250,7 @@ var topPick2 = [
     },
 ];
 
+// Top Pick 3 Array
 var topPick3 = [
     {
         // Cambugahay Falls
@@ -250,6 +261,7 @@ var topPick3 = [
     },
 ];
 
+// Top Pick 4 Array
 var topPick4 = [
     {
         // Tubod Beach/Marine Sanctuary
@@ -260,6 +272,7 @@ var topPick4 = [
     },
 ];
 
+// Top Pick 5 Array
 var topPick5 = [
     {
         // Cliff Garden Hostel
@@ -270,6 +283,7 @@ var topPick5 = [
     },
 ];
 
+// Top Pick 6 Array
 var topPick6 = [
     {
         // Lazy Lizard Hostel
@@ -280,6 +294,7 @@ var topPick6 = [
     },
 ];
 
+// Top Tips Array of Objects
 var topTips = [
     {
         // Postada Scooter Hire
