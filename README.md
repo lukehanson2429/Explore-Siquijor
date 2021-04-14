@@ -6,7 +6,7 @@
 
 The Project goal is to create a clear, concise and user friendly website for a travel webiste - Explore Siquijor, a backpackers guide to Island of Siquijor in the Philippines. The website purpose is aimed at backpackers to provide a guide on what the island has to offer before visiting.
 
-<img src="assets/images/exploresiquijor.png">
+<img src="assets/images/explore-siquijor.png">
 
 ## Project Goals
 
@@ -38,7 +38,7 @@ The Project goal is to create a clear, concise and user friendly website for a t
 * Icons on the map are slightly darker versions of the button colors so they are easily visble on the map.
 * Text is either black or white across the webpage depending on background color.
 
-Contrast Checker used to check colors of buttons along with text is easy to read - [Contrast Checker](https://contrastchecker.com/?c=000000&b=1155dd)
+Contrast Checker used to check colors of buttons match with text so its easy to read - [Contrast Checker](https://contrastchecker.com/?c=000000&b=1155dd)
 
 ### 2. Typography
 * The font style of Amatic SC has been chosen for the website brand/logo (Explore Siquijor) within the header & footer. This hand drawn web font is designed to give a rustic feel to the website brand.
@@ -51,6 +51,73 @@ Contrast Checker used to check colors of buttons along with text is easy to read
 * Upon clicking the top tips button an image of someone riding a scooter along a scenic road surrounded by tropical scenery is designed to engage the user to inspire adventure.
 * Background image on opaque overlay on form has been selected as it fits in with the color scheme and shows the beauty of the coastline in the Philippines.
 
+### 4. Icons
+* Arrow icons have been used from [Font Awesome](https://fontawesome.com/v4.7.0/) to make the UX simple to use with interactivity.
+* Icons have been used from [Font Awesome](https://fontawesome.com/v4.7.0/) in the footer for Social Links.
+
 ## WireFrames
+
+## Features
+
+* Responsive on all devices.
+
+* Dropdown hamburger menu on mobile devices using Bootsrap.
+    * Upon clicking a nav link this menu will hide and scroll using js (Same for desktop).
+* Navbar collapse on scroll using js.
+* Bootstrap Carousel for landing home page on a slow fade to grab users attention.
+* Bootstrap Booking Form on Contact page using EmailJS which allows the user to send an email. Success or error message on send & value fields reset.
+    * Email field if incorrect value is entered error message will show.
+* Google MAPS API utilised which shows icons for various categories by clicking associated button.
+    * Categories are the following: Hostels, Attractions, Food & drink, Top Picks (6 different) & Top tips
+    * Icons have various information for the user such as address, telephone, opening times & website link within the info window.
+    * Buttons clicked will smooth scroll to the map section of the page, especially user friendly while interacting on a mobile device.
+    * On click of MAP icon map zooms to icon location and info window pops up for icon.
+    * On mouse out of MAP area zoom resets to original zoom.
+* Font Awesome arrow icons have interactivity within the webpage which toggle, show, scroll or hide content using jquery.
+* Font Awesome Social/Interactive Links.
+    
+### Features left to implement
+
+* Current Weather via API
+* Foreign Exchange Currency comparison to Philippines Peso via API
+* Gallery Section
+
+### Languages Used
+
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+* [Javascript](https://en.wikipedia.org/wiki/JavaScript) 
+
+### Frameworks, Libraries & Programs Used
+
+1. Bootstrap 4.5.2:
+    * Bootstrap was used to assist with the responsiveness across the entire website.
+2. Google Fonts:
+    * Google fonts were used to import the 'Amatic SC & Neucha' fonts into the style.css file.
+3. Font Awesome:
+    * Font Awesome was used to add icons for aesthetic and UX purposes.
+4. jQuery:
+    * jQuery used for certain Javascript functions such as toggle, show, scroll or hide content.
+5. Gitpod:
+    * The Interactive Development Envvironment to code the website. Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+6. GitHub:
+    * GitHub is used to store the projects code after being pushed from Git.
+7. Figma:
+    * This was used to create my wireframe designs for desktop/mobile formats.
+8. Chrome Dev tools:
+    * To assist with debugging code and assessing perforamnce through lighthouse.
+9. Contrastchecker.com:
+    * Used to make sure the contrast in colors is suitable for my design & everything is easy to read.
+10. FavIcon:
+    * Used to make custom Icon for website.
+11. Google Maps API:
+    * For interative Map with icons.
+12. Email JS:
+    * For User to to send an email.
+13. AmIResponsive:
+    * Used to created mock up of website.
+14. TinyPNG
+    * Used to compress images to increase performance.
+
 
 
