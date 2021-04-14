@@ -14,7 +14,7 @@ The Project goal is to create a clear, concise and user friendly website for a t
 * To help the user make an informed decision before visiting Siquijor.
 * Clear design presentation which allows the the user to navigate easily.
 * To maximise future maintainability through documentation, code structure and organisation.
-* To provide significant interactivity through a google maps API on where to stay, eat, drink and what attractions are there to see.
+* To provide significant interactivity through a google maps API which will benefit the User with a clean UX.
 * To be able to contact the site owner through email.js should they have any further questions.
 * The target users will be for backpackers/travellers.
 
@@ -56,6 +56,13 @@ Contrast Checker used to check colors of buttons match with text so its easy to 
 * Icons have been used from [Font Awesome](https://fontawesome.com/v4.7.0/) in the footer for Social Links.
 
 ## WireFrames
+
+Initial Wireframe designs made on Figma:
+
+* [Desktop](assets/wireframes/desktop.jpg) 
+* [Mobile](assets/wireframes/mobile.jpg) 
+
+Original design has been significantly altered throughout the process of my project to improve the UX & UI. Top tips section also added.
 
 ## Features
 
@@ -150,7 +157,7 @@ The project was deployed to GitHub Pages using the following steps...
 ### Content
 
 * Icon description, telephone & address for map icons sourced from google maps.
-* Website links added to certain icons for TripAdvisor, Booking.com or direct website if available.
+* Website links added to icons for TripAdvisor, Booking.com or direct website if available.
 * All other content written by developer.
 
 ### Code
@@ -161,11 +168,11 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Media 
 
-* Home Page Carousel image 1[Unsplash](https://unsplash.com/photos/2rH2w01umhY)
-* Home Page Carousel image 2[Unsplash](https://unsplash.com/photos/YXzQe8JHvwc)
-* Home Page Carousel image 3[Unsplash](https://unsplash.com/photos/MGUC3WkLkWM)
-* Top Tips Image[Unsplash](https://unsplash.com/photos/jMCOul3CK9U)
-* Contact Form Image[Unsplash](https://unsplash.com/photos/IL-fBBnF-GU)
+* Home Page Carousel image 1 - [Unsplash](https://unsplash.com/photos/2rH2w01umhY)
+* Home Page Carousel image 2 - [Unsplash](https://unsplash.com/photos/MGUC3WkLkWM)
+* Home Page Carousel image 3 - [Unsplash](https://unsplash.com/photos/YXzQe8JHvwc)
+* Top Tips Image - [Unsplash](https://unsplash.com/photos/jMCOul3CK9U)
+* Contact Form Image - [Unsplash](https://unsplash.com/photos/IL-fBBnF-GU)
 
 
 ### Acknowledgements

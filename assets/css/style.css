@@ -40,6 +40,19 @@ body {
     padding: 0%;
 }
 
+
+/*----Dark Overlay for Carousel - https://stackoverflow.com/questions/46819577/bootstrap-4-beta-carousel-dark-overlay ---------------*/
+.carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.1);
+}
+
 .home-text {
     font-family: "Neucha", sans-serif;
     font-size: 14px;
