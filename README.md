@@ -36,7 +36,7 @@ The Project goal is to create a clear, concise and user friendly website for a t
 * The buttons have various colours which match the icon colors which help make it clearly identifable which icon category is associated with each button. Food & drink button - rgba(245, 161, 97, 1), Hostel button - rgba(130, 228, 211, 1);, attractions button - rgba(212, 173, 222, 1); These colors have also been selected so the black text is easy to read.
 * The google maps api color scheme of atlas has been selected as it ties in nicely with the light blue background color.
 * Icons on the map are slightly darker versions of the button colors so they are easily visble on the map.
-* Text is either black or white across the webpage depending on background color.
+* Text is either black or light blue - rgba(225, 254, 251, 1) across the webpage depending on background color.
 
 Contrast Checker used to check colors of buttons match with text so its easy to read - [Contrast Checker](https://contrastchecker.com/?c=000000&b=1155dd)
 
@@ -90,34 +90,89 @@ Contrast Checker used to check colors of buttons match with text so its easy to 
 
 ### Frameworks, Libraries & Programs Used
 
-1. Bootstrap 4.5.2:
+1. [Bootstrap](https://getbootstrap.com/)
     * Bootstrap was used to assist with the responsiveness across the entire website.
-2. Google Fonts:
+2. [Google Fonts](https://fonts.google.com/)
     * Google fonts were used to import the 'Amatic SC & Neucha' fonts into the style.css file.
-3. Font Awesome:
+3. [Font Awesome](https://fontawesome.com/)
     * Font Awesome was used to add icons for aesthetic and UX purposes.
-4. jQuery:
+4. [JQuery](https://jquery.com/)
     * jQuery used for certain Javascript functions such as toggle, show, scroll or hide content.
-5. Gitpod:
+5. [Gitpod](https://www.gitpod.io/)
     * The Interactive Development Envvironment to code the website. Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-6. GitHub:
+6. [Github](https://github.com/)
     * GitHub is used to store the projects code after being pushed from Git.
-7. Figma:
+7. [Figma](https://www.figma.com/)
     * This was used to create my wireframe designs for desktop/mobile formats.
-8. Chrome Dev tools:
+8. [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)
     * To assist with debugging code and assessing perforamnce through lighthouse.
-9. Contrastchecker.com:
+9. [Contrast Checker](https://contrastchecker.com/)
     * Used to make sure the contrast in colors is suitable for my design & everything is easy to read.
-10. FavIcon:
+10. [FavIcon](https://favicon.io/favicon-generator/)
     * Used to make custom Icon for website.
-11. Google Maps API:
+11. [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview)
     * For interative Map with icons.
-12. Email JS:
+12. [EmailJS](https://www.emailjs.com/)
     * For User to to send an email.
-13. AmIResponsive:
+13. [AmIResponsive](http://ami.responsivedesign.is/)
     * Used to created mock up of website.
-14. TinyPNG
+14. [TinyPNG](https://tinypng.com/)
     * Used to compress images to increase performance.
+14. [Maps Marker Icons](https://mapicons.mapsmarker.com/)
+    * Custom Map Icons used for Interactive Map.
+
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the GitHub Repository.
+2. At the top of the Repository, locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you see the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site in the "GitHub Pages" section.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the GitHub Repository.
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL.
+7. Press Enter. Your local clone will be created.
 
 
+## Credits
+
+### Content
+
+* Icon description, telephone & address for map icons sourced from google maps.
+* Website links added to certain icons for TripAdvisor, Booking.com or direct website if available.
+* All other content written by developer.
+
+### Code
+
+* Bootstrap Navbar & Carousel based on boostrap templates & significantly changed to suit my website.
+* EmailJS function based on code institute Lesson and adjusted to suit my project
+* Stack Overflow & W3Schools - Links within comments in code.
+
+### Media 
+
+* Home Page Carousel image 1[Unsplash](https://unsplash.com/photos/2rH2w01umhY)
+* Home Page Carousel image 2[Unsplash](https://unsplash.com/photos/YXzQe8JHvwc)
+* Home Page Carousel image 3[Unsplash](https://unsplash.com/photos/MGUC3WkLkWM)
+* Top Tips Image[Unsplash](https://unsplash.com/photos/jMCOul3CK9U)
+* Contact Form Image[Unsplash](https://unsplash.com/photos/IL-fBBnF-GU)
+
+
+### Acknowledgements
+
+My Mentor Medale Oluwafemi has been very helpful with Feedback/Guidance.
+
+Slack community for feedback & suggestions.
+
+Code institute with supportive content and Tutor Support.
 

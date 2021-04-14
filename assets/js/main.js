@@ -27,8 +27,8 @@ $('a[href*="#"]')
     .filter((i, a) => a.getAttribute("href").startsWith("#") || a.href.startsWith(`${location.href}#`))
     .unbind("click.smoothScroll")
     .bind("click.smoothScroll", (event) => {
-        const targetId = event.currentTarget.getAttribute("href").split("#")[1];
-        const targetElement = document.getElementById(targetId);
+        const targetNav = event.currentTarget.getAttribute("href").split("#")[1];
+        const targetElement = document.getElementById(targetNav);
 
         if (targetElement) {
             event.preventDefault();

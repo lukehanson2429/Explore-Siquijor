@@ -14,7 +14,7 @@ function initMap() {
         zoom: 10,
         disableDefaultUI: true,
     });
-};
+}
 
 // Function to show certain icons, only activated when a certain button category is clicked
 function iconMap(category) {
