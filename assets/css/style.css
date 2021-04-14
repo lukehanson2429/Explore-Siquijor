@@ -71,13 +71,13 @@ body {
 /*----Home Button----*/
 .btn-custom {
     background-color: black;
-    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(225, 254, 251, 1);
     border-width: 0.5px;
     color: white;
 }
 
 .btn-custom:hover {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(225, 254, 251, 1);
     border-color: black;
     border-width: 0.5px;
 }
@@ -90,8 +90,9 @@ body {
 }
 
 .btn-custom-fd:hover {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: black;
     border-color: rgba(245, 161, 97, 1);
+    color: rgba(245, 161, 97, 1);
     border-width: 0.5px;
 }
 
@@ -102,8 +103,9 @@ body {
 }
 
 .btn-custom-attr:hover {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: black;
     border-color: rgba(212, 173, 222, 1);
+    color: rgba(212, 173, 222, 1);
     border-width: 0.5px;
 }
 
@@ -114,8 +116,9 @@ body {
 }
 
 .btn-custom-hos:hover {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: black;
     border-color: rgba(130, 228, 211, 1);
+    color: rgba(130, 228, 211, 1);
     border-width: 0.5px;
 }
 
@@ -127,8 +130,9 @@ body {
 }
 
 .btn-custom-tt:hover {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: black;
     border-color: rgba(245, 232, 97, 1);
+    color: rgba(245, 232, 97, 1);
     border-width: 0.5px;
 }
 
@@ -138,7 +142,7 @@ body {
 
 /*----Form Button----*/
 .btn-custom-form {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(225, 254, 251, 1);
     border-color: black;
     border-width: 0.5px;
     color: black;
@@ -146,8 +150,8 @@ body {
 
 .btn-custom-form:hover {
     background-color: black;
-    border-color: rgba(255, 255, 255, 1);
-    color: rgba(255, 255, 255, 1);
+    border-color: rgba(225, 254, 251, 1);
+    color: rgba(225, 254, 251, 1);
     border-width: 0.5px;
 }
 
@@ -200,12 +204,13 @@ body {
 }
 .tp-margin {
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .scroll-container {
     height: 88vh;
     overflow-y: scroll;
-
+    margin-top: 20px;
     border-color: rgba(225, 254, 251, 1);
     color: rgba(225, 254, 251, 1);
 }
@@ -233,7 +238,7 @@ body {
 }
 
 .btn-scroll {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 section {
@@ -293,14 +298,14 @@ section {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .contact-section {
     font-family: "Neucha", sans-serif;
     letter-spacing: 0.05em;
 
-    color: antiquewhite;
+    color: rgba(225, 254, 251, 1);
     padding: 20px;
 }
 
