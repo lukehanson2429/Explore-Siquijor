@@ -22,7 +22,6 @@ The Project goal is to create a clear, concise and user friendly website for a t
 
 * As a new user I want to be able to understand the the purpose of the website.
 * As a new user I want to be able to navigate intuitively.
-* As a new user I want to find out more information to help make a informed decision on whether this would be a place I'm interested in visiting.
 * As a new user If I'm interested in visiting how do I get there?
 * As a new user what does the site owner recommend.
 * As a new user how do I find out what hostels, restaurants/bars & attractions are on the island.
@@ -59,8 +58,8 @@ Contrast Checker used to check colors of buttons match with text so its easy to 
 
 Initial Wireframe designs made on Figma:
 
-* [Desktop](assets/wireframes/desktop.jpg) 
-* [Mobile](assets/wireframes/mobile.jpg) 
+* [Desktop](readme-docs/wireframes/desktop.jpg) 
+* [Mobile](readme-docs/wireframes/mobile.jpg) 
 
 Original design has been significantly altered throughout the process of my project to improve the UX & UI. Top tips section also added.
 
@@ -127,6 +126,126 @@ Original design has been significantly altered throughout the process of my proj
     * Used to compress images to increase performance.
 14. [Maps Marker Icons](https://mapicons.mapsmarker.com/)
     * Custom Map Icons used for Interactive Map.
+
+## Testing
+
+The W3C Markup Validator, W3C CSS Validator Services & Jshint were used to validate every page 
+of the project to ensure there were no errors/warning within my code. Results below:
+
+* [W3C Markup Validator](readme-docs/validation/htmlval.png)
+* [W3C CSS Validator](readme-docs/validation/cssval.png)
+* [Jshint main.js](readme-docs/validation/mainjshint.png)
+* [Jshint maps.js](readme-docs/validation/mapsjshint.png)
+* [Jshint sendemail.js](readme-docs/validation/emailjshint.png)
+
+### User Stories Testing
+
+1. As a new user I want to be able to understand the the purpose of the website.
+    * Opening landing page description explains purpose of website for user.
+    * Carousel image on landing page provides a feel for the website and indicates that its a travel website.
+
+<div align="center"><img src="readme-docs/readme-imgs/us-1.png" width="75%" height="75%"></div>
+
+2. As a new user I want to be able to navigate intuitively.
+    * Smooth scrolling when clicking on navlinks, buttons & icons engange the user and have a response 
+    that you would expect.
+
+As an example on click of Guide button in Navbar page smooth scrolls to guide section:
+
+<div align="center"><img src="readme-docs/readme-imgs/us-2.png" width="75%" height="75%"></div>
+
+3. As a new user If I'm interested in visiting how do I get there?
+    * How to get there section explains the route to the island to see if this fits in with the itinerary of your 
+    trip. Under Map Section:
+
+<div align="center"><img src="readme-docs/readme-imgs/us-3.png" width="75%" height="75%"></div>
+
+4. As a new user what does the site owner recommend.
+    * Top Picks sections provides info on recommended hostels, attraction, restaurants & bars. Upon clicking arrow button additional top picks are visble in scroll container to the right of map:
+
+<div align="center"><img src="readme-docs/readme-imgs/us-4.png" width="75%" height="75%"></div>
+
+Marker Icon for individual top pick visible on clicking each button with info window for each. Example below:
+
+<div align="center"><img src="readme-docs/readme-imgs/us-5.png" width="75%" height="75%"></div>
+
+5. As a new user how do I find out what hostels, restaurants/bars & attractions are on the island.
+    * Within the map section of the page each category of icons can be shown on the map by clicking category buttons.
+    * Futher info availble on click of icons as mentioned above on point 4.
+
+Example of Attractions map icons after button category clicked:
+
+<div align="center"><img src="readme-docs/readme-imgs/us-6.png" width="75%" height="75%"></div>
+
+6. As a new user are there any additional things I should know before visiting.
+    * Top Tips provides further valuable information which may be helpful before you visit which also links to 
+    the map to show icon location and more info.
+
+After clicking top tips arrow:
+
+<div align="center"><img src="readme-docs/readme-imgs/us-7.png" width="75%" height="75%"></div>
+
+By clicking on top tips button to show icons on the map, info window can be viewed upon clicking markers:
+
+<div align="center"><img src="readme-docs/readme-imgs/us-8.png" width="75%" height="75%"></div>
+
+7. As a new user I would like to get in contact to find out more.
+    * If further info is needed the site owner can be emailed in the contact section.
+
+<div align="center"><img src="readme-docs/readme-imgs/us-9.png" width="75%" height="75%"></div>
+
+### Functionality Testing
+
+#### Navigation menu
+
+* Navlinks smooth scroll to desired section of page.
+* On scroll of browser Navbar will hide & show.
+* On a mobile display with the dropdown hamburger menu on selection of desired section Navbar will hide.
+
+#### Buttons:
+
+* Landing Hero image named Explore Siquijor smooth scrolls to map section.
+* Hostel, Attractions, Food/Drink, Top Picks & Top Tip buttons for the map API call various icons as intended all color coded for a clean UX.
+* Smooth scroll to desired location of website also when clicking buttons.
+* Send Button in contact section sends email as intended and provides a success alert.
+
+#### Map Functionality:
+
+* Map initializes on website load.
+* Map icons Zoom to marker position on click and open info window.
+* On mouse out map zooms to original zoom.
+* Marker info windows include additional information such as Phone, Address, opening times & website link.
+
+#### Font Awesome Arrow Buttons:
+
+* Top Picks arrow button on click shows more top picks & smooth scrolls to next Top Picks.
+* Top Tips section toggles on click which shows further information/imagery & hides how to get there section.
+
+#### Contact Form:
+
+* All fields required in contact form to send an email.
+* If email field has been filled out incorrectly an alert will show.
+* Send Button in contact section sends email as intended and provides a success alert or error if unsuccessful.
+
+#### Social Media Icons:
+
+* Open to a new webpage as intended.
+
+### Responsive Design Testing:
+
+* The website has been viewed on a variety of devices through chrome dev tools such as Desktop, Laptop, iPhone 6/7/8, moto g4 &ipad/ipad mini all functioning correctly and responsive.
+* Tested on Google Chrome & Mozilla Firefox Browsers all functioning correctly.
+* Minor Bug on safari desktop which was unintended - once scrolled back to top of the page Navbar does not return, however this is not a major issue as Navbar returns on scroll and is also visible when website initializes.
+
+### Lighthouse Performance Testing:
+
+* Average performance on mobile but within acceptable parameters:
+
+<div align="center"><img src="readme-docs/readme-imgs/mobile-lighthouse.png" width="75%" height="75%"></div>
+
+* Exceptional performance on desktop:
+
+<div align="center"><img src="readme-docs/readme-imgs/desktop-lighthouse.png" width="75%" height="75%"></div>
 
 ## Deployment
 
