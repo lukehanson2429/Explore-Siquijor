@@ -345,6 +345,15 @@ section {
 
 /*----Footer Section - End---------------*/
 
+/*----404 error---------------*/
+.text-error {
+    font-family: "Neucha", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    color: black;
+    padding-left: 20px;
+}
+
 @media (min-width: 1050px) {
     .carousel-item img {
         width: 100%;
