@@ -61,7 +61,10 @@ Initial Wireframe designs made on Figma:
 * [Desktop](readme-docs/wireframes/desktop.jpg) 
 * [Mobile](readme-docs/wireframes/mobile.jpg) 
 
-Original design has been significantly altered throughout the process of my project to improve the UX & UI. Top tips section also added.
+Original design has been significantly altered throughout the process of my project to improve the UX & UI:
+* Top pick section moved next to Map so the main guide is all on one page to improve UX.
+* Opening paragraph & button on home page centred so it grabs the users attention.
+* Top tips section added for additional info which is helpful for the user.
 
 ## Features
 
@@ -246,6 +249,53 @@ By clicking on top tips button to show icons on the map, info window can be view
 * Exceptional performance on desktop:
 
 <div align="center"><img src="readme-docs/readme-imgs/desktop-lighthouse.png" width="75%" height="75%"></div>
+
+## Encountered Issues
+
+* Top Tips image displaying incorrectly on smaller devices. Fixed by using media queries:
+
+@media (max-width: 464px) {
+    #top-tip-img {
+        height: 325px;
+        width: 325px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    #top-tip-img {
+        height: 325px;
+        width: 325px;
+    }
+}
+
+* Scroll container arrow not visible on a mobile device, solved using media queries by setting scroll container height to 100vh:
+
+@media (max-width: 619px) {
+    .scroll-container {
+    height: 100vh;
+}
+
+* Dropdown hamburger menu not hiding while scrolling on mobile device. Solved by hiding Navbar on click on Navlink using Javascript:
+
+$(".navbar-nav>li>a").click(function () {
+    $(".navbar-collapse").collapse("hide");
+});
+
+* Google maps console log error - initializtion: Uncaught (in promise) TypeError: Cannot read property 'length' of undefined. To solve this I created a small seperate function which initilises a map when the webpage loads which doesn't involve a for loop:
+
+// Variable for initial Map on Page Load
+let mapInitial;
+
+// Function to load initial Map 
+function initMap() {
+    mapInitial = new google.maps.Map(document.getElementById("map"), {
+        mapId: "58081ee022056e14",
+        center: { lat: 9.186013, lng: 123.580776 },
+        zoom: 10,
+        disableDefaultUI: true,
+    });
+}
 
 ## Deployment
 
