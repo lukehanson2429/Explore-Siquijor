@@ -38,6 +38,7 @@ body {
 /*----Carousel Section - Start----*/
 #carouselMain {
     padding: 0%;
+    position: relative;
 }
 
 
