@@ -87,17 +87,12 @@ $(".btn-custom-tt").click(function () {
 });
 
 // Function to toggle top tips content when clicking top tips button 
-$(".btn-toptip").click(function () {
-    $("#tp-Content-2").toggle(speed);
-});
-
-// Function to toggle hide how to get there section
-$(".btn-toptip").click(function () {
-    $("#tp-Content-1").toggle(speed);
+$(".btn-toptip-down").click(function () {
+    $("#tt-Content-2").show(speed);
 });
 
 // Function to toggle top tips content image when clicking top tips button 
-$(".btn-toptip").click(function () {
+$(".btn-toptip-down").click(function () {
     $("#top-tip-img").toggle(speed);
 });
 
@@ -109,6 +104,36 @@ $(".btn-scroll").click(function () {
 // Function to hide .btn-scroll on click
 $(".btn-scroll").click(function () {
     $(".btn-scroll").hide(speed);
+});
+
+// Function to hide top tips down button on click
+$(".btn-toptip-down").click(function () {
+    $("#tt-Content-1").hide(speed);
+});
+
+// Function to show top tips content on click by down arrow
+$(".btn-toptip-up").click(function () {
+    $("#tt-Content-1").show(speed);
+});
+
+// Function to show top tips img on click
+$(".btn-toptip-up").click(function () {
+    $("#top-tip-img").toggle(speed);
+});
+
+// Function to hide top tips content on on click by up arrow
+$(".btn-toptip-up").click(function () {
+    $("#tt-Content-2").hide(speed);
+});
+
+// Function to hide top tips up button on click
+$(".btn-toptip-up").click(function () {
+    $(".btn-toptip-up").hide(speed);
+});
+
+// Function to show top tips up button on click
+$(".btn-toptip-down").click(function () {
+    $(".btn-toptip-up").show(speed);
 });
 
 // Function to scroll to top of .btn scroll postion on click
