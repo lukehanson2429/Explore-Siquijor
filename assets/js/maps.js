@@ -1,5 +1,3 @@
-// Google Maps Javascript assistance from the following tutorial (Traversy Media) - https://www.youtube.com/watch?v=Zxf1mnP5zcw
-
 // Variable for initial Map on Page Load
 let mapInitial;
 

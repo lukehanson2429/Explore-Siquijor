@@ -164,7 +164,7 @@ As an example on click of Guide button in Navbar page smooth scrolls to guide se
 <div align="center"><img src="readme-docs/readme-imgs/us-3.png" width="75%" height="75%"></div>
 
 4. As a new user what does the site owner recommend.
-    * Top Picks sections provides info on recommended hostels, attraction, restaurants & bars. Upon clicking arrow button additional top picks are visble in scroll container to the right of map:
+    * Top Picks sections provides info on recommended hostels, attraction, restaurants & bars. Upon clicking more button additional top picks are visble in scroll container to the right of map:
 
 <div align="center"><img src="readme-docs/readme-imgs/us-4.png" width="75%" height="75%"></div>
 
@@ -181,8 +181,9 @@ Example of Attractions map icons after button category clicked:
 <div align="center"><img src="readme-docs/readme-imgs/us-6.png" width="75%" height="75%"></div>
 
 6. As a new user are there any additional things I should know before visiting.
-    * Top Tips provides further valuable information which may be helpful before you visit which also links to 
+    * Top Tips down arrow icon provides further valuable information which may be helpful before you visit which also links to 
     the map to show icon location and more info.
+    * To hide the top tips section up arrow hides this section.
 
 After clicking top tips arrow:
 
@@ -209,6 +210,7 @@ By clicking on top tips button to show icons on the map, info window can be view
 
 * Landing Hero image named Explore Siquijor smooth scrolls to map section.
 * Hostel, Attractions, Food/Drink, Top Picks & Top Tip buttons for the map API call various icons as intended all color coded for a clean UX.
+* More button in top picks section scrolls and shows further top picks.
 * Smooth scroll to desired location of website also when clicking buttons.
 * Send Button in contact section sends email as intended and provides a success alert.
 
@@ -221,8 +223,7 @@ By clicking on top tips button to show icons on the map, info window can be view
 
 #### Font Awesome Arrow Buttons:
 
-* Top Picks arrow button on click shows more top picks & smooth scrolls to next Top Picks.
-* Top Tips section toggles on click which shows further information/imagery & hides how to get there section.
+* Top Tips section toggles on click which shows further information/imagery. Can be hidden again by clicking up arrow at bottom of section.
 
 #### Contact Form:
 
@@ -254,6 +255,7 @@ By clicking on top tips button to show icons on the map, info window can be view
 
 * Top Tips image displaying incorrectly on smaller devices. Fixed by using media queries:
 
+```
 @media (max-width: 464px) {
     #top-tip-img {
         height: 325px;
@@ -261,29 +263,37 @@ By clicking on top tips button to show icons on the map, info window can be view
         margin-bottom: 20px;
     }
 }
+```
 
+```
 @media (max-width: 800px) {
     #top-tip-img {
         height: 325px;
         width: 325px;
     }
 }
+```
 
 * Scroll container arrow not visible on a mobile device, solved using media queries by setting scroll container height to 100vh:
 
+```
 @media (max-width: 619px) {
     .scroll-container {
     height: 100vh;
 }
+```
 
 * Dropdown hamburger menu not hiding while scrolling on mobile device. Solved by hiding Navbar on click on Navlink using Javascript:
 
+```
 $(".navbar-nav>li>a").click(function () {
     $(".navbar-collapse").collapse("hide");
 });
+```
 
 * Google maps console log error - initializtion: Uncaught (in promise) TypeError: Cannot read property 'length' of undefined. To solve this I created a small seperate function which initilises a map when the webpage loads which doesn't involve a for loop:
 
+```
 // Variable for initial Map on Page Load
 let mapInitial;
 
@@ -296,6 +306,7 @@ function initMap() {
         disableDefaultUI: true,
     });
 }
+```
 
 ## Deployment
 
