@@ -25,7 +25,7 @@ function iconMap(category) {
 
     // Loop through the array category depending on which category has been clicked 
     for (var i = 0; i < category.length; i++) {
-        addMarker(category[i],map);
+        addMarker(category[i], map);
     }
 
 }

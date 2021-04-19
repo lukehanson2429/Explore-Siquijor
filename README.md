@@ -58,8 +58,8 @@ Contrast Checker used to check colors of buttons match with text so its easy to 
 
 Initial Wireframe designs made on Figma:
 
-* [Desktop](readme-docs/wireframes/desktop.jpg) 
-* [Mobile](readme-docs/wireframes/mobile.jpg) 
+* [Desktop](assets/readme-docs/wireframes/desktop.jpg) 
+* [Mobile](assets/readme-docs/wireframes/mobile.jpg) 
 
 Original design has been significantly altered throughout the process of my project to improve the UX & UI:
 * Top pick section moved next to Map so the main guide is all on one page to improve UX.
@@ -135,11 +135,13 @@ Original design has been significantly altered throughout the process of my proj
 The W3C Markup Validator, W3C CSS Validator Services & Jshint were used to validate every page 
 of the project to ensure there were no errors/warning within my code. Results below:
 
-* [W3C Markup Validator](readme-docs/validation/htmlval.png)
-* [W3C CSS Validator](readme-docs/validation/cssval.png)
-* [Jshint main.js](readme-docs/validation/mainjshint.png)
-* [Jshint maps.js](readme-docs/validation/mapsjshint.png)
-* [Jshint sendemail.js](readme-docs/validation/emailjshint.png)
+* [W3C Markup Validator](assets/readme-docs/validation/htmlval.png)
+* [W3C CSS Validator](assets/readme-docs/validation/cssval.png)
+* [Jshint main.js](assets/readme-docs/validation/mainjshint.png)
+* [Jshint maps.js](assets/readme-docs/validation/mapsjshint.png)
+* [Jshint sendemail.js](assets/readme-docs/validation/emailjshint.png)
+* [Jshint constants.js](assets/readme-docs/validation/constjshint.png)
+
 
 ### User Stories Testing
 
@@ -147,7 +149,7 @@ of the project to ensure there were no errors/warning within my code. Results be
     * Opening landing page description explains purpose of website for user.
     * Carousel image on landing page provides a feel for the website and indicates that its a travel website.
 
-<div align="center"><img src="readme-docs/readme-imgs/us-1.png" width="75%" height="75%"></div>
+<div align="center"><img src="assets/readme-docs/readme-imgs/us-1.png" width="75%" height="75%"></div>
 
 2. As a new user I want to be able to navigate intuitively.
     * Smooth scrolling when clicking on navlinks, buttons & icons engange the user and have a response 
@@ -155,18 +157,18 @@ of the project to ensure there were no errors/warning within my code. Results be
 
 As an example on click of Guide button in Navbar page smooth scrolls to guide section:
 
-<div align="center"><img src="readme-docs/readme-imgs/us-2.png" width="75%" height="75%"></div>
+<div align="center"><img src="assets/readme-docs/readme-imgs/us-2.png" width="75%" height="75%"></div>
 
 3. As a new user If I'm interested in visiting how do I get there?
     * How to get there section explains the route to the island to see if this fits in with the itinerary of your 
     trip. Under Map Section:
 
-<div align="center"><img src="readme-docs/readme-imgs/us-3.png" width="75%" height="75%"></div>
+<div align="center"><img src="assets/readme-docs/readme-imgs/us-3.png" width="75%" height="75%"></div>
 
 4. As a new user what does the site owner recommend.
     * Top Picks sections provides info on recommended hostels, attraction, restaurants & bars. Upon clicking more button additional top picks are visble in scroll container to the right of map:
 
-<div align="center"><img src="readme-docs/readme-imgs/us-4.png" width="75%" height="75%"></div>
+<div align="center"><img src="assets/readme-docs/readme-imgs/us-4.png" width="75%" height="75%"></div>
 
 Marker Icon for individual top pick visible on clicking each button with info window for each. Example below:
 
@@ -178,7 +180,7 @@ Marker Icon for individual top pick visible on clicking each button with info wi
 
 Example of Attractions map icons after button category clicked:
 
-<div align="center"><img src="readme-docs/readme-imgs/us-6.png" width="75%" height="75%"></div>
+<div align="center"><img src="assets/readme-docs/readme-imgs/us-6.png" width="75%" height="75%"></div>
 
 6. As a new user are there any additional things I should know before visiting.
     * Top Tips down arrow icon provides further valuable information which may be helpful before you visit which also links to 
@@ -187,16 +189,16 @@ Example of Attractions map icons after button category clicked:
 
 After clicking top tips arrow:
 
-<div align="center"><img src="readme-docs/readme-imgs/us-7.png" width="75%" height="75%"></div>
+<div align="center"><img src="assets/readme-docs/readme-imgs/us-7.png" width="75%" height="75%"></div>
 
 By clicking on top tips button to show icons on the map, info window can be viewed upon clicking markers:
 
-<div align="center"><img src="readme-docs/readme-imgs/us-8.png" width="75%" height="75%"></div>
+<div align="center"><img src="assets/readme-docs/readme-imgs/us-8.png" width="75%" height="75%"></div>
 
 7. As a new user I would like to get in contact to find out more.
     * If further info is needed the site owner can be emailed in the contact section.
 
-<div align="center"><img src="readme-docs/readme-imgs/us-9.png" width="75%" height="75%"></div>
+<div align="center"><img src="assets/readme-docs/readme-imgs/us-9.png" width="75%" height="75%"></div>
 
 ### Functionality Testing
 
@@ -245,11 +247,11 @@ By clicking on top tips button to show icons on the map, info window can be view
 
 * Average performance on mobile but within acceptable parameters:
 
-<div align="center"><img src="readme-docs/readme-imgs/mobile-lighthouse.png" width="75%" height="75%"></div>
+<div align="center"><img src="assets/readme-docs/readme-imgs/mobile-lighthouse.png" width="75%" height="75%"></div>
 
 * Exceptional performance on desktop:
 
-<div align="center"><img src="readme-docs/readme-imgs/desktop-lighthouse.png" width="75%" height="75%"></div>
+<div align="center"><img src="assets/readme-docs/readme-imgs/desktop-lighthouse.png" width="75%" height="75%"></div>
 
 ## Encountered Issues
 
