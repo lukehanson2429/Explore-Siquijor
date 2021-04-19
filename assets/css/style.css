@@ -199,18 +199,6 @@ body {
 /*----Map Section - End---------------*/
 
 /*----Top Picks Section - Start---------------*/
-.main-content {
-    font-family: "Neucha", sans-serif;
-    letter-spacing: 0.05em;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.main-content-bg {
-    background-color: rgba(225, 254, 251, 1);
-}
 
 .padding-tp {
     padding-top: 20px;
@@ -262,18 +250,41 @@ section {
 
 /*----Top Picks Section - End---------------*/
 
-/*----Top Tip Section - Start---------------*/
+/*----Main & Top Tip Section - Start---------------*/
 
-#tp-Content-2 {
+.main-content {
+    font-family: "Neucha", sans-serif;
+    letter-spacing: 0.05em;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main-content-bg {
+    background-color: rgba(225, 254, 251, 1);
+}
+
+.mc-padding {
+    padding-top: 20px;
+}
+
+.tt-padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#tt-Content-2 {
+    padding-top: 20px;
     display: none;
     line-height: 2;
 }
 
-#tp-Content-2 li {
+#tt-Content-2 li {
     padding-top: 30px;
 }
 
-#tp-Content-2 ol {
+#tt-Content-2 ol {
     padding-left: 0px;
 }
 
@@ -296,7 +307,14 @@ section {
     border-width: 0.5px;
 
     display: none;
+
 }
+
+.btn-toptip-up {
+    display: none;
+    margin: 20px;
+}
+
 
 /*----Top Tip Section - End---------------*/
 
